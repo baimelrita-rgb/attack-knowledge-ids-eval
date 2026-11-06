@@ -1,0 +1,6 @@
+stage,c2,exfil,recon,residual
+Cover up,0,2,1,0
+Data Exfiltration,0,233,36,0
+Establish Foothold,0,104,133,0
+Lateral Movement,2,84,29,6
+Reconnaissance,8,7,1,0

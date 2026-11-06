@@ -1,0 +1,5 @@
+capture,train,val,test,activities_meeting_in_all_3_splits
+net1013x,1,3,4,0
+net1014x,0,0,1,0
+net1015x,1,0,1,0
+netgw,1,1,2,0

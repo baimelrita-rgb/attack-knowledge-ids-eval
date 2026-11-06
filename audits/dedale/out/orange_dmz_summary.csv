@@ -1,0 +1,2 @@
+capture,days,rows,attack_rows_label_ne_0,attack_days,benign_rows_on_attack_days,benign_src_ips,attack_hosts_src_or_dst
+orange_dmz,28,839054,2,1,45132,75,3

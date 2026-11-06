@@ -1,0 +1,4 @@
+       day  positive_hosts  hosts  model_p3  channels_only  ecod_pooled  iforest_pooled  autoencoder_pooled  volume  ablation_gnn_only
+2019-09-23              22   1017     0.584          0.534        0.673           0.697               0.897   0.473              0.493
+2019-09-24              12    986     0.716          0.608        0.852           0.906               0.953   0.360              0.644
+2019-09-25            1001   1017     0.879          0.941        0.441           0.040               0.888   0.912              0.475

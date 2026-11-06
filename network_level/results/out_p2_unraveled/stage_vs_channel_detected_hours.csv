@@ -1,0 +1,4 @@
+stage,c2,exfil,recon,residual
+Data Exfiltration,0,2,0,0
+Establish Foothold,0,0,15,0
+Lateral Movement,2,0,1,1

@@ -1,0 +1,238 @@
+{
+ "per_dataset": {
+  "ATLASV2_EDR": {
+   "gt_nodes": 48,
+   "learned_gt@50": 0.0,
+   "learned_gtproc@50": 0.0,
+   "knowledge_gt@50": 26.0,
+   "knowledge_gtproc@50": 26.0,
+   "fused_gt@50": 26.0,
+   "fused_gtproc@50": 26.0,
+   "coverage_gt_proc": 1.0,
+   "selectivity": 0.017209339904661874,
+   "gt_proc_share": 1.0,
+   "learned_auc": 0.8431625621581442,
+   "gain_gt@50": 26.0
+  },
+  "OPTC_H501": {
+   "gt_nodes": 749,
+   "learned_gt@50": 2.0,
+   "learned_gtproc@50": 2.0,
+   "knowledge_gt@50": 2.0,
+   "knowledge_gtproc@50": 2.0,
+   "fused_gt@50": 2.0,
+   "fused_gtproc@50": 2.0,
+   "coverage_gt_proc": 0.08695652173913043,
+   "selectivity": 0.008366993652625505,
+   "gt_proc_share": 0.030707610146862484,
+   "learned_auc": 0.72256844117485,
+   "gain_gt@50": 0.0
+  },
+  "OPTC_H051": {
+   "gt_nodes": 114,
+   "learned_gt@50": 0.0,
+   "learned_gtproc@50": 0.0,
+   "knowledge_gt@50": 4.0,
+   "knowledge_gtproc@50": 4.0,
+   "fused_gt@50": 4.0,
+   "fused_gtproc@50": 4.0,
+   "coverage_gt_proc": 0.11864406779661017,
+   "selectivity": 0.006016330038676407,
+   "gt_proc_share": 0.5175438596491229,
+   "learned_auc": 0.8593316562686749,
+   "gain_gt@50": 4.0
+  },
+  "OPTC_H201": {
+   "gt_nodes": 2905,
+   "learned_gt@50": 1.0,
+   "learned_gtproc@50": 1.0,
+   "knowledge_gt@50": 1.0,
+   "knowledge_gtproc@50": 1.0,
+   "fused_gt@50": 1.0,
+   "fused_gtproc@50": 1.0,
+   "coverage_gt_proc": 0.11904761904761904,
+   "selectivity": 0.009112333071484681,
+   "gt_proc_share": 0.014457831325301205,
+   "learned_auc": 0.7284363219445166,
+   "gain_gt@50": 0.0
+  },
+  "CADETS_E3": {
+   "gt_nodes": 72,
+   "learned_gt@50": 5.0,
+   "learned_gtproc@50": 2.0,
+   "knowledge_gt@50": 0.0,
+   "knowledge_gtproc@50": 0.0,
+   "fused_gt@50": 0.0,
+   "fused_gtproc@50": 0.0,
+   "coverage_gt_proc": 0.0,
+   "selectivity": 0.003106956994536934,
+   "gt_proc_share": 0.5416666666666666,
+   "learned_auc": 0.9685366908700295,
+   "gain_gt@50": -5.0
+  },
+  "THEIA_E3": {
+   "gt_nodes": 118,
+   "learned_gt@50": 1.0,
+   "learned_gtproc@50": 0.0,
+   "knowledge_gt@50": 0.0,
+   "knowledge_gtproc@50": 0.0,
+   "fused_gt@50": 0.0,
+   "fused_gtproc@50": 0.0,
+   "coverage_gt_proc": 0.0,
+   "selectivity": 0.12457470639510362,
+   "gt_proc_share": 0.8135593220338984,
+   "learned_auc": 0.6303490554442108,
+   "gain_gt@50": -1.0
+  },
+  "CLEARSCOPE_E3": {
+   "gt_nodes": 41,
+   "learned_gt@50": 0.0,
+   "learned_gtproc@50": 0.0,
+   "knowledge_gt@50": 0.0,
+   "knowledge_gtproc@50": 0.0,
+   "fused_gt@50": 0.0,
+   "fused_gtproc@50": 0.0,
+   "coverage_gt_proc": 0.0,
+   "selectivity": 0.0,
+   "gt_proc_share": 0.024390243902439025,
+   "learned_auc": 0.16192424091766644,
+   "gain_gt@50": 0.0
+  }
+ },
+ "carbanakv2": {
+  "coverage_gt_proc": 0.5021834061135371,
+  "selectivity": 0.03039866479535713,
+  "gt_proc_share": 1.0
+ },
+ "H2_coverage_vs_gain": [
+  0.8076923076923077,
+  0.04285714285714286
+ ],
+ "H3_auc_vs_gain": [
+  0.07412493166611013,
+  0.8785714285714286
+ ],
+ "procshare_vs_gain": [
+  0.07412493166611013,
+  0.8785714285714286
+ ],
+ "H4": {
+  "other": {
+   "n_attacks": 8,
+   "fused_better": 0,
+   "learned_better": 7,
+   "ties": 1,
+   "median_first_rank_fused": 271.0,
+   "median_first_rank_learned": 34.5,
+   "median_first_rank_knowledge": 275.0,
+   "wilcoxon_p": 0.015625
+  },
+  "win_process_centric": {
+   "n_attacks": 11,
+   "fused_better": 11,
+   "learned_better": 0,
+   "ties": 0,
+   "median_first_rank_fused": 5.0,
+   "median_first_rank_learned": 2698.0,
+   "median_first_rank_knowledge": 11.0,
+   "wilcoxon_p": 0.0009765625
+  }
+ },
+ "per_attack_medians": {
+  "ATLASV2_EDR|0": {
+   "learned": 4092.0,
+   "knowledge": 61.0,
+   "fused": 50.0
+  },
+  "ATLASV2_EDR|1": {
+   "learned": 3094.0,
+   "knowledge": 11.0,
+   "fused": 5.0
+  },
+  "ATLASV2_EDR|2": {
+   "learned": 2688.0,
+   "knowledge": 27.0,
+   "fused": 19.0
+  },
+  "ATLASV2_EDR|3": {
+   "learned": 929.0,
+   "knowledge": 14.0,
+   "fused": 9.0
+  },
+  "ATLASV2_EDR|4": {
+   "learned": 3092.0,
+   "knowledge": 11.0,
+   "fused": 3.0
+  },
+  "ATLASV2_EDR|5": {
+   "learned": 3096.0,
+   "knowledge": 10.0,
+   "fused": 3.0
+  },
+  "ATLASV2_EDR|6": {
+   "learned": 3090.0,
+   "knowledge": 10.0,
+   "fused": 4.0
+  },
+  "ATLASV2_EDR|7": {
+   "learned": 2698.0,
+   "knowledge": 1.0,
+   "fused": 1.0
+  },
+  "ATLASV2_EDR|8": {
+   "learned": 931.0,
+   "knowledge": 15.0,
+   "fused": 11.0
+  },
+  "ATLASV2_EDR|9": {
+   "learned": 344.0,
+   "knowledge": 19.0,
+   "fused": 13.0
+  },
+  "CADETS_E3|0": {
+   "learned": 42.0,
+   "knowledge": 276.0,
+   "fused": 274.0
+  },
+  "CADETS_E3|1": {
+   "learned": 34.0,
+   "knowledge": 275.0,
+   "fused": 271.0
+  },
+  "CADETS_E3|2": {
+   "learned": 35.0,
+   "knowledge": 275.0,
+   "fused": 271.0
+  },
+  "CLEARSCOPE_E3|0": {
+   "learned": 196.0,
+   "knowledge": 196.0,
+   "fused": 196.0
+  },
+  "OPTC_H051|0": {
+   "learned": 105.0,
+   "knowledge": 4.0,
+   "fused": 4.0
+  },
+  "OPTC_H201|0": {
+   "learned": 13.0,
+   "knowledge": 41.0,
+   "fused": 41.0
+  },
+  "OPTC_H501|0": {
+   "learned": 5.0,
+   "knowledge": 12.0,
+   "fused": 12.0
+  },
+  "THEIA_E3|0": {
+   "learned": 328.0,
+   "knowledge": 13619.0,
+   "fused": 1611.0
+  },
+  "THEIA_E3|1": {
+   "learned": 4.0,
+   "knowledge": 13295.0,
+   "fused": 1225.0
+  }
+ }
+}

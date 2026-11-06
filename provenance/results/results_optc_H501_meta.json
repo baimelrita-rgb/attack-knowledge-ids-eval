@@ -1,0 +1,23 @@
+{
+ "dataset": "optc_h501",
+ "seed": 0,
+ "train_events": 12384122,
+ "sampled": 3999345,
+ "test_events": 10417234,
+ "ops": [
+  "CREATE",
+  "DELETE",
+  "MESSAGE",
+  "MODIFY",
+  "OPEN",
+  "READ",
+  "RENAME",
+  "START",
+  "TERMINATE",
+  "WRITE"
+ ],
+ "emb": 32,
+ "w2v_epochs": 10,
+ "epochs": 3,
+ "seconds": 1117.9083075523376
+}

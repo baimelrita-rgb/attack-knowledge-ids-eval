@@ -1,0 +1,22 @@
+{
+ "H4 Windows process-centric": {
+  "p": 0.0009765625,
+  "p_holm": 0.0048828125
+ },
+ "H4 other": {
+  "p": 0.015625,
+  "p_holm": 0.0625
+ },
+ "H2 coverage vs gain": {
+  "p": 0.04285714285714286,
+  "p_holm": 0.12857142857142856
+ },
+ "H3 learned AUC vs gain": {
+  "p": 0.8785714285714286,
+  "p_holm": 1.0
+ },
+ "process share vs gain": {
+  "p": 0.8785714285714286,
+  "p_holm": 1.0
+ }
+}

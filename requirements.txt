@@ -1,0 +1,15 @@
+# Versions used for the reported results (Python 3.13.16)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+torch==2.15.0
+torch_geometric==2.8.1
+pyod==3.6.7
+shap==0.54.1
+gensim==4.4.0
+psycopg2-binary==2.9.13
+pyarrow==26.0.0
+matplotlib==3.11.2
+pytz==2026.6
+nltk==3.10.4

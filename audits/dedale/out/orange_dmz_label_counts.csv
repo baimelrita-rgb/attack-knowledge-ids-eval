@@ -1,0 +1,2 @@
+capture,label,attack_step,tactic,technique,flows
+orange_dmz,1,initial_access,TA0001,T1566,2

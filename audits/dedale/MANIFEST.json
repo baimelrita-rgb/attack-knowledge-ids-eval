@@ -1,0 +1,74 @@
+{
+  "README.md": {
+    "bytes": 4772,
+    "downloaded_utc": "2026-10-30T08:16:03+00:00",
+    "file_id": "722195",
+    "md5": "1fa4df8d4ccff010d7296eb0783bdc15",
+    "md5_expected": "1fa4df8d4ccff010d7296eb0783bdc15",
+    "md5_ok": true,
+    "sha256": "eb48bf5f6e8f740ce33f58319059ed0e5fa2b0968d2d144f79e7f5236bc0d3f4"
+  },
+  "suricata_alerts.zip": {
+    "bytes": 24596811,
+    "downloaded_utc": "2026-10-30T08:16:04+00:00",
+    "file_id": "717879",
+    "md5": "3e824b0967e2e397eac04c8c253db842",
+    "md5_expected": "3e824b0967e2e397eac04c8c253db842",
+    "md5_ok": true,
+    "sha256": "4a5140ca94d5f73649dc3743a9806e255ffde21bb3669e93f1953337cf539128"
+  },
+  "system_logs_labels.zip": {
+    "bytes": 2669407,
+    "downloaded_utc": "2026-10-30T08:16:03+00:00",
+    "file_id": "717882",
+    "md5": "455d0a7042531eff74285006f97822e4",
+    "md5_expected": "455d0a7042531eff74285006f97822e4",
+    "md5_ok": true,
+    "sha256": "729ac223a89c70f771861920b6b9ee3ab1bb5569e12ec54c04f380aadf574dc7"
+  },
+  "userbehaviour_logs.zip": {
+    "bytes": 22196076,
+    "downloaded_utc": "2026-10-30T08:16:04+00:00",
+    "file_id": "717880",
+    "md5": "25c891442f693c4f525f930d17fedb4a",
+    "md5_expected": "25c891442f693c4f525f930d17fedb4a",
+    "md5_ok": true,
+    "sha256": "d93eb8ffb70f446f35eeb09678e95b40b10478aa51ab7516e1902df7b5b791e8"
+  },
+  "zeek_green_internal.zip": {
+    "bytes": 3538305367,
+    "downloaded_utc": "2026-10-30T08:16:24+00:00",
+    "file_id": "717875",
+    "md5": "db1e4c7a80545e758edb766d920a0400",
+    "md5_expected": "db1e4c7a80545e758edb766d920a0400",
+    "md5_ok": true,
+    "sha256": "90946b7c34c40e094cb2ecd52a73810df18e5649ae97b6498261b35d526b660b"
+  },
+  "zeek_orange_dmz.zip": {
+    "bytes": 415796741,
+    "downloaded_utc": "2026-10-30T08:16:05+00:00",
+    "file_id": "717876",
+    "md5": "c9eeda34bb1a1591fe1874718bdc192f",
+    "md5_expected": "c9eeda34bb1a1591fe1874718bdc192f",
+    "md5_ok": true,
+    "sha256": "defaeffecc8bfd145f362836ccda6296275732d8156b9137acd9b5c30f0b9909"
+  },
+  "zeek_orange_servers.zip": {
+    "bytes": 3405887752,
+    "downloaded_utc": "2026-10-30T08:16:33+00:00",
+    "file_id": "717877",
+    "md5": "ed2256f2f385e0755096f72d05c04707",
+    "md5_expected": "ed2256f2f385e0755096f72d05c04707",
+    "md5_ok": true,
+    "sha256": "981d240c0f13c1acae7036b805d9a9ad15cb2295f9d57f002cc27cc85a04bbe7"
+  },
+  "zeek_router1.zip": {
+    "bytes": 4396439880,
+    "downloaded_utc": "2026-10-30T08:16:15+00:00",
+    "file_id": "717878",
+    "md5": "c5f237d2cbc5afc4946cb2a766cf7d7e",
+    "md5_expected": "c5f237d2cbc5afc4946cb2a766cf7d7e",
+    "md5_ok": true,
+    "sha256": "78d1fe2ca22cb887fb37213332712fcced531933c95397cf53ec5911f57b2eab"
+  }
+}

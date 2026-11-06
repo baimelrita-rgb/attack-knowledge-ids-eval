@@ -1,0 +1,7 @@
+capture,folders,flows,attack_flows,attack_folders,benign_flows_in_attack_folders,malformed_rows,benign_src_ips,attack_hosts_src_or_dst,activities_ge_50_flows_and_ge_3_hours
+net1011x,27,1792756,0,0,0,2008,3063,0,0
+net1012x,28,734331,0,0,0,2371,529,0,0
+net1013x,29,1072368,34122,20,692620,2142,274,4,6
+net1014x,29,210371,2948,3,25579,338,37,2,1
+net1015x,29,175662,1156,17,101901,972,29,3,2
+netgw,26,2891669,59017,16,1794410,5338,2793,8,3

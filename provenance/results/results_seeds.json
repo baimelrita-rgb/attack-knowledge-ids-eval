@@ -1,0 +1,960 @@
+{
+ "OPTC_H501": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 2.0,
+   "min": 1.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 2.0,
+   "min": 1.0,
+   "max": 3.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 2.0,
+   "min": 2.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 2.0,
+   "min": 2.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 2.0,
+   "min": 2.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 2.0,
+   "min": 2.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.72256844117485,
+   "min": 0.6415376386710752,
+   "max": 0.7350231921822697,
+   "n": 5
+  }
+ },
+ "OPTC_H051": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 4.0,
+   "min": 4.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 7.0,
+   "min": 7.0,
+   "max": 7.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 4.0,
+   "min": 4.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 4.0,
+   "min": 4.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.8593316562686749,
+   "min": 0.7983488304033912,
+   "max": 0.9229676492473607,
+   "n": 5
+  }
+ },
+ "OPTC_H201": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 3.0,
+   "min": 1.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 3.0,
+   "min": 1.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.7284363219445166,
+   "min": 0.5204929751226255,
+   "max": 0.7315183753193693,
+   "n": 5
+  }
+ },
+ "CLEARSCOPE_E3": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.16192424091766644,
+   "min": 0.08933806732690266,
+   "max": 0.19606405565501395,
+   "n": 5
+  }
+ },
+ "CADETS_E3": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 3.0,
+   "min": 2.0,
+   "max": 3.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 3.0,
+   "min": 3.0,
+   "max": 3.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 5.0,
+   "min": 2.0,
+   "max": 15.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 10.0,
+   "min": 8.0,
+   "max": 24.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "interleave_attacks@100": {
+   "median": 3.0,
+   "min": 2.0,
+   "max": 3.0,
+   "n": 5
+  },
+  "interleave_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "interleave_gt@100": {
+   "median": 5.0,
+   "min": 2.0,
+   "max": 15.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.9685366908700295,
+   "min": 0.957191621050924,
+   "max": 0.9794630547063046,
+   "n": 5
+  }
+ },
+ "THEIA_E3": {
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "learned_attacks@10": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "learned_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "learned_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "learned_gt@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "learned_gt@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 11.0,
+   "n": 5
+  },
+  "knowledge_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "knowledge_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@10": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@25": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_attacks@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_gt@50": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "sum_gt@100": {
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.0,
+   "n": 5
+  },
+  "interleave_attacks@10": {
+   "median": 1.0,
+   "min": 0.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_attacks@25": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_attacks@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_attacks@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 2.0,
+   "n": 5
+  },
+  "interleave_gt@50": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 1.0,
+   "n": 5
+  },
+  "interleave_gt@100": {
+   "median": 1.0,
+   "min": 1.0,
+   "max": 4.0,
+   "n": 5
+  },
+  "velox_auc": {
+   "median": 0.6303490554442108,
+   "min": 0.5721710914575493,
+   "max": 0.6970654213672277,
+   "n": 5
+  }
+ },
+ "gates_per_seed": {
+  "E3_seed0": {
+   "G1": false,
+   "G2": false,
+   "G3": true,
+   "pass": false,
+   "pooled_attacks@50": {
+    "velox": 3,
+    "knowledge": 0,
+    "sum": 0,
+    "interleave": 1
+   }
+  },
+  "OpTC_seed0": {
+   "G1": false,
+   "G2": true,
+   "G3": true,
+   "pooled_gt@50": {
+    "velox": 3,
+    "knowledge_only": 7,
+    "fused": 7
+   }
+  },
+  "E3_seed1": {
+   "G1": false,
+   "G2": false,
+   "G3": true,
+   "pass": false,
+   "pooled_attacks@50": {
+    "velox": 5,
+    "knowledge": 0,
+    "sum": 0,
+    "interleave": 1
+   }
+  },
+  "OpTC_seed1": {
+   "G1": false,
+   "G2": true,
+   "G3": true,
+   "pooled_gt@50": {
+    "velox": 3,
+    "knowledge_only": 7,
+    "fused": 7
+   }
+  },
+  "E3_seed2": {
+   "G1": false,
+   "G2": false,
+   "G3": true,
+   "pass": false,
+   "pooled_attacks@50": {
+    "velox": 4,
+    "knowledge": 0,
+    "sum": 0,
+    "interleave": 1
+   }
+  },
+  "OpTC_seed2": {
+   "G1": false,
+   "G2": true,
+   "G3": true,
+   "pooled_gt@50": {
+    "velox": 3,
+    "knowledge_only": 7,
+    "fused": 7
+   }
+  },
+  "E3_seed3": {
+   "G1": false,
+   "G2": false,
+   "G3": true,
+   "pass": false,
+   "pooled_attacks@50": {
+    "velox": 4,
+    "knowledge": 0,
+    "sum": 0,
+    "interleave": 3
+   }
+  },
+  "OpTC_seed3": {
+   "G1": false,
+   "G2": true,
+   "G3": true,
+   "pooled_gt@50": {
+    "velox": 3,
+    "knowledge_only": 6,
+    "fused": 6
+   }
+  },
+  "E3_seed4": {
+   "G1": false,
+   "G2": false,
+   "G3": true,
+   "pass": false,
+   "pooled_attacks@50": {
+    "velox": 3,
+    "knowledge": 0,
+    "sum": 0,
+    "interleave": 1
+   }
+  },
+  "OpTC_seed4": {
+   "G1": false,
+   "G2": true,
+   "G3": true,
+   "pooled_gt@50": {
+    "velox": 2,
+    "knowledge_only": 7,
+    "fused": 7
+   }
+  }
+ }
+}

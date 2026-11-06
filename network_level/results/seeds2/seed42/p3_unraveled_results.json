@@ -1,0 +1,139 @@
+{
+  "seed": 42,
+  "budget_per_day": 5,
+  "split": {
+    "train": [
+      "2021-05-28",
+      "2021-06-04"
+    ],
+    "cal": [
+      "2021-06-05",
+      "2021-06-07"
+    ],
+    "test": [
+      "2021-06-08",
+      "2021-07-06"
+    ]
+  },
+  "n_train_host_hours": 6978,
+  "n_calibration_scores": 10242,
+  "n_test_host_hours": 26887,
+  "positive_host_hours": 646,
+  "positive_host_days": 60,
+  "random_host_day_detection_at_5": 0.05840982671885621,
+  "methods": {
+    "model_p3": {
+      "host_day_detection_at_5": 0.2833333333333333,
+      "attack_hour_recall_at_5": 0.03715170278637771,
+      "false_alerts_per_day": 4.172413793103448,
+      "auc_host_hour": 0.8987342910905736,
+      "auc_host_day": 0.818162115301257
+    },
+    "channels_only": {
+      "host_day_detection_at_5": 0.13333333333333333,
+      "attack_hour_recall_at_5": 0.020123839009287926,
+      "false_alerts_per_day": 4.551724137931035,
+      "auc_host_hour": 0.9058787426808164,
+      "auc_host_day": 0.8807542262678804
+    },
+    "volume": {
+      "host_day_detection_at_5": 0.1,
+      "attack_hour_recall_at_5": 0.020123839009287926,
+      "false_alerts_per_day": 4.551724137931035,
+      "auc_host_hour": 0.8292551549149743,
+      "auc_host_day": 0.7501408755960122
+    },
+    "volume_host": {
+      "host_day_detection_at_5": 0.11666666666666667,
+      "attack_hour_recall_at_5": 0.017027863777089782,
+      "false_alerts_per_day": 4.620689655172414,
+      "auc_host_hour": 0.723841628496422,
+      "auc_host_day": 0.6439044213263979
+    },
+    "ecod_pooled": {
+      "host_day_detection_at_5": 0.16666666666666666,
+      "attack_hour_recall_at_5": 0.02476780185758514,
+      "false_alerts_per_day": 4.448275862068965,
+      "auc_host_hour": 0.8289868630176374,
+      "auc_host_day": 0.7071521456436931
+    },
+    "iforest_pooled": {
+      "host_day_detection_at_5": 0.11666666666666667,
+      "attack_hour_recall_at_5": 0.032507739938080496,
+      "false_alerts_per_day": 4.275862068965517,
+      "auc_host_hour": 0.7844892832488757,
+      "auc_host_day": 0.6823255309926312
+    },
+    "autoencoder_pooled": {
+      "host_day_detection_at_5": 0.1,
+      "attack_hour_recall_at_5": 0.02321981424148607,
+      "false_alerts_per_day": 4.482758620689655,
+      "auc_host_hour": 0.8104625109266418,
+      "auc_host_day": 0.7121749024707411
+    },
+    "ablation_p2": {
+      "host_day_detection_at_5": 0.13333333333333333,
+      "attack_hour_recall_at_5": 0.02476780185758514,
+      "false_alerts_per_day": 4.448275862068965,
+      "auc_host_hour": 0.770511293094976,
+      "auc_host_day": 0.6592815344603382
+    },
+    "ablation_p3_host_only": {
+      "host_day_detection_at_5": 0.13333333333333333,
+      "attack_hour_recall_at_5": 0.020123839009287926,
+      "false_alerts_per_day": 4.551724137931035,
+      "auc_host_hour": 0.9058787426808164,
+      "auc_host_day": 0.8807542262678804
+    },
+    "ablation_gnn_only": {
+      "host_day_detection_at_5": 0.1,
+      "attack_hour_recall_at_5": 0.03715170278637771,
+      "false_alerts_per_day": 4.172413793103448,
+      "auc_host_hour": 0.7527801069462943,
+      "auc_host_day": 0.725915691374079
+    }
+  },
+  "within_host_hour_auc_model": {
+    "10.1.3.17": 0.8055775390993027,
+    "10.1.3.8": 0.8849445490688428,
+    "10.1.4.16": 0.9863578680203046,
+    "10.1.5.21": 0.9794154300950614
+  },
+  "top_channel_on_attack_hours": {
+    "c2": {
+      "Cover up": 0,
+      "Data Exfiltration": 10,
+      "Establish Foothold": 0,
+      "Lateral Movement": 9,
+      "Reconnaissance": 3
+    },
+    "exfil": {
+      "Cover up": 1,
+      "Data Exfiltration": 86,
+      "Establish Foothold": 150,
+      "Lateral Movement": 0,
+      "Reconnaissance": 0
+    },
+    "lateral": {
+      "Cover up": 0,
+      "Data Exfiltration": 153,
+      "Establish Foothold": 0,
+      "Lateral Movement": 2,
+      "Reconnaissance": 0
+    },
+    "recon": {
+      "Cover up": 0,
+      "Data Exfiltration": 10,
+      "Establish Foothold": 81,
+      "Lateral Movement": 38,
+      "Reconnaissance": 1
+    },
+    "volume": {
+      "Cover up": 2,
+      "Data Exfiltration": 10,
+      "Establish Foothold": 6,
+      "Lateral Movement": 72,
+      "Reconnaissance": 12
+    }
+  }
+}

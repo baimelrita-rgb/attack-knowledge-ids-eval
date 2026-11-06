@@ -1,0 +1,5 @@
+- Pre-registered protocol and open tooling for ML threat detection research
+- A pooled autoencoder set a strong baseline for network-level detection
+- ATT&CK rules boosted learned detectors where they covered the attack's processes
+- Autoencoder-error grouping identified ATT&CK attack stages above chance
+- Host popularity is a strong benchmark for predicting the next compromised host

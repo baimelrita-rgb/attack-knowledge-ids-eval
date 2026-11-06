@@ -1,0 +1,21 @@
+Activity,capture,flows,days,hour_windows,signatures,src_ips,dst_ips,dst_ports,modal_dst_port,modal_dst_port_flows,benign_flows_on_modal_port
+Data Transfer Size Limits,net1013x,5984,11,170,1,1,2,2,443,4883,324976
+Encrypted Channel: Symmetric Cryptography,net1013x,27087,12,238,1,1,1,1,443,27087,324976
+Exfiltration over C2 channel,net1013x,441,2,8,1,1,1,1,443,441,324976
+Remote System Discovery,net1013x,164,20,87,1,1,1,1,80,164,93194
+Remove Traces,net1013x,358,1,3,1,1,1,1,443,358,324976
+Unsecured Credentials,net1013x,88,3,14,1,1,1,2,443,75,324976
+Active Scanning: Scanning IP Blocks,net1014x,2944,4,14,1,1,1,2,22,2926,11
+Bruteforce: Password Guessing,net1014x,4,1,2,1,1,1,1,2222,4,2
+Data Transfer Size Limits,net1015x,1003,6,81,1,1,1,1,3306,1003,0
+Remote System Discovery,net1015x,153,19,81,1,1,1,1,80,153,11044
+Active Scanning: Scanning IP Blocks,netgw,8506,4,16,1,1,1,1814,2222,2946,10
+Active Scanning: Vulnerability Scanning,netgw,5,2,2,1,1,1,1,8080,5,5
+Bruteforce: Password Guessing,netgw,22652,1,2,1,1,1,4717,80,6471,208756
+Data Transfer Size Limits,netgw,1,1,1,1,1,1,1,443,1,1178797
+Encrypted Channel: Symmetric Cryptography,netgw,24,8,19,1,1,1,1,443,24,1178797
+Exfiltration over C2 channel,netgw,5,2,5,1,1,1,1,443,5,1178797
+Hijack Execution Flow: Path Interception by PATH Environment Variable,netgw,7,2,4,1,1,1,2,22,4,62
+Maintain Access,netgw,27128,13,205,1,1,1,1,443,27128,1178797
+Remote System Discovery,netgw,685,8,102,1,2,1,211,5900,41,0
+Remove Traces,netgw,4,1,1,1,1,1,1,443,4,1178797

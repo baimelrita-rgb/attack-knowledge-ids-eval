@@ -1,0 +1,35 @@
+diff --git a/pidsmaker/detection/evaluation_methods/evaluation_utils.py b/pidsmaker/detection/evaluation_methods/evaluation_utils.py
+index b386d68..813c30b 100644
+--- a/pidsmaker/detection/evaluation_methods/evaluation_utils.py
++++ b/pidsmaker/detection/evaluation_methods/evaluation_utils.py
+@@ -775,7 +775,7 @@ def plot_detected_attacks_vs_precision(scores, nodes, node2attacks, labels, out_
+         max_detected_attacks_percentages.append(attack_list)
+ 
+     # Calculate area under the curve for % detected attacks vs precision
+-    area_under_curve = np.trapz(max_detected_attacks_percentages, unique_precisions) / 100
++    area_under_curve = np.trapezoid(max_detected_attacks_percentages, unique_precisions) / 100
+ 
+     # Plotting
+     try:
+@@ -853,7 +853,7 @@ def plot_recall_vs_precision(scores, nodes, node2attacks, labels, out_file):
+         max_recalls.append(np.max(recall_list))
+ 
+     # Calculate area under the curve for recall vs precision
+-    area_under_curve = np.trapz(max_recalls, unique_precisions) / 100
++    area_under_curve = np.trapezoid(max_recalls, unique_precisions) / 100
+ 
+     # Plotting
+     plt.figure(figsize=(10, 6))
+@@ -896,10 +896,10 @@ def plot_discrimination_metric(scores, y_truth, out_file):
+     # Compute the raw separation area
+     if mask.sum() > 0:
+         # Positive overlap exists
+-        raw_area = np.trapz(top_anomalous_scores[mask] - top_benign_scores[mask], dx=1)
++        raw_area = np.trapezoid(top_anomalous_scores[mask] - top_benign_scores[mask], dx=1)
+     else:
+         # No positive overlap; compute negative area
+-        raw_area = -np.trapz(top_benign_scores - top_anomalous_scores, dx=1)
++        raw_area = -np.trapezoid(top_benign_scores - top_anomalous_scores, dx=1)
+ 
+     # Calculate the range of scores (y-axis normalization)
+     max_score = max(top_anomalous_scores.max(), top_benign_scores.max())

@@ -1,0 +1,97 @@
+\section{Implementation details}\label{app:impl}
+\subsection{Data splits}
+\subsubsection{Network level}
+Days are UTC; the unit is the host-hour of Zeek or NFStream flows.
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Train / calibration / test days for the network-level experiments. Train and calibration days contain no attack flow.}
+\begin{tabularx}{\textwidth}{@{}lYYY@{}}
+\toprule
+Dataset & Train & Calibration & Test \\
+\midrule
+DEDALE (green zone) & 2024-12-24 -- 2025-01-02 & 2025-01-03 -- 2025-01-05 & 2025-01-06 -- 2025-01-19 \\
+Unraveled & 2021-05-28 -- 2021-06-04 & 2021-06-05 -- 2021-06-07 & 2021-06-08 -- 2021-07-06 \\
+OpTC (Zeek) & 2019-09-16 -- 2019-09-19 & 2019-09-20 -- 2019-09-22 & 2019-09-23 -- 2019-09-25 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\subsubsection{Provenance level}
+The splits are PIDSMaker's defaults for each dataset.
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Train / validation / test dates for the host-level experiments: first and last day, and the number of days actually used in parentheses (the days of a split need not be contiguous).}
+\begin{tabularx}{\textwidth}{@{}lYYY@{}}
+\toprule
+Dataset & Train & Validation & Test \\
+\midrule
+%%SPLITS_PROV%%
+\bottomrule
+\end{tabularx}
+\end{table}
+LANL: development = days 2--12, test = days 13--30 of the red-team events (day index from the start of the data).
+
+\subsection{Models and hyperparameters}
+\begin{itemize}
+\item Network features (per host-hour): flows out, distinct destination IPs and ports, share of failed
+connections, new and rare external destinations (rare = contacted by at most two internal hosts before), beacon
+regularity over 72\,h, bytes out and in, new admin-port edges, GNN edge surprise. Counts and bytes are transformed
+with $\log(1+x)$; ratios are left unchanged. ``New'' means not seen on any earlier day.
+\item Per-host tail model: one-sided empirical upper-tail probability of each feature against the host's own
+training hours (all hosts' hours if the host has fewer than 24); channel score = most extreme feature (+0.01 $\times$
+channel mean); conformal $p$-values from cross-fitted calibration (training days split by parity, plus the calibration
+days); hour score $=-\log_{10}(\min_c p_c \times 6)$.
+\item Pooled baselines: ECOD (pyod defaults); Isolation Forest (200 trees); autoencoder = scikit-learn
+\texttt{MLPRegressor} with hidden layers (32, 8, 32), 300 iterations, on standardised features. Seed 42 unless stated.
+\item GNN lateral channel: learnable 32-d node embeddings, two GraphSAGE-mean layers, MLP decoder over
+(source, destination, port embedding of size 8); 300 epochs of Adam (learning rate 0.01, weight decay $10^{-4}$);
+three random destinations and two random ports per observed triple as negatives; training days scored out of sample
+by two models trained on alternate days; seed 42.
+\item Velox / Velox-lite: PIDSMaker's Velox (tuned configuration, embedding size 32) and our re-implementation
+(word2vec embeddings of node labels with PIDSMaker's tokenizer, size 32, 10 epochs; a linear layer to 128 dimensions;
+source and destination projections to 256; dropout 0.5; one hidden layer; cross-entropy over the event type; 3 epochs
+of Adam with learning rate $10^{-3}$ on at most 4 million sampled training events). Node score = maximum event loss.
+\item Explanation baselines: KernelSHAP with 20 $k$-means background points and 200 samples; TreeSHAP on the
+Isolation Forest; occlusion replaces a channel's features by their training medians; reconstruction-error grouping
+takes the channel with the largest mean squared per-feature error.
+\item Blast radius: logon weights $\log(1+n)\,e^{-\Delta d/7}$ over earlier days; PageRank restart 0.15, 50
+iterations, undirected graph.
+\end{itemize}
+
+\subsection{Windows rule prior (process path or command line)}
+Each matching rule adds one point to a process; process-creation events add two points to both endpoints when a
+document, mail or browser process spawns an interpreter or living-off-the-land binary, and one point when an
+interpreter spawns such a tool.
+\begin{itemize}\footnotesize
+%%WIN_RULES%%
+\end{itemize}
+
+\subsection{Linux / FreeBSD / Android rule prior}
+Same point scheme; parents are network-facing programs (browsers, mail clients, web, ssh and ftp servers), children
+are shells, interpreters and download or discovery tools.
+\begin{itemize}\footnotesize
+%%LIN_RULES%%
+\end{itemize}
+
+\subsection{Ground-truth channels for the explanation study}
+An explanation counts as correct if the explained channel is among the ground-truth channels of the host-hour;
+host-hours without a mappable channel are excluded. The chance level is the expected accuracy of choosing one of the
+four channels uniformly at random, that is, the average of $|\mathrm{GT}\cap\{\text{recon, c2, lateral, exfil}\}|/4$
+over the evaluated host-hours.
+\begin{itemize}\footnotesize
+\item DEDALE (ATT\&CK tactic ID): TA0043, TA0007 $\rightarrow$ recon; TA0011 $\rightarrow$ c2; TA0008 $\rightarrow$
+lateral; TA0010 $\rightarrow$ exfil; TA0001, TA0009 $\rightarrow$ none.
+\item Unraveled (stage): Reconnaissance $\rightarrow$ recon; Establish Foothold $\rightarrow$ c2; Lateral Movement
+$\rightarrow$ lateral; Data Exfiltration $\rightarrow$ exfil; Cover up $\rightarrow$ none.
+\item OpTC: flows to a documented attacker server $\rightarrow$ c2; report-timeline entries by keyword (scan
+$\rightarrow$ recon; pivot, WMI, RDP, spread $\rightarrow$ lateral; exfiltrat, netcat $\rightarrow$ exfil).
+\end{itemize}
+
+\subsection{Values behind Figure~\ref{fig:budget}}
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Ground-truth nodes found within the top-$k$ alerts (seed 0).}
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & 10 & 25 & 50 & 100 & 250 & 500 \\
+\midrule
+%%FIG_ROWS%%
+\bottomrule
+\end{tabular}
+\end{table}

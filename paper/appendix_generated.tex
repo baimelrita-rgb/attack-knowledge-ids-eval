@@ -1,0 +1,171 @@
+\section{Implementation details}\label{app:impl}
+\subsection{Data splits}
+\subsubsection{Network level}
+Days are UTC; the unit is the host-hour of Zeek or NFStream flows.
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Train / calibration / test days for the network-level experiments. Train and calibration days contain no attack flow.}
+\begin{tabularx}{\textwidth}{@{}lYYY@{}}
+\toprule
+Dataset & Train & Calibration & Test \\
+\midrule
+DEDALE (green zone) & 2024-12-24 -- 2025-01-02 & 2025-01-03 -- 2025-01-05 & 2025-01-06 -- 2025-01-19 \\
+Unraveled & 2021-05-28 -- 2021-06-04 & 2021-06-05 -- 2021-06-07 & 2021-06-08 -- 2021-07-06 \\
+OpTC (Zeek) & 2019-09-16 -- 2019-09-19 & 2019-09-20 -- 2019-09-22 & 2019-09-23 -- 2019-09-25 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\subsubsection{Provenance level}
+The splits are PIDSMaker's defaults for each dataset.
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Train / validation / test dates for the host-level experiments: first and last day, and the number of days actually used in parentheses (the days of a split need not be contiguous).}
+\begin{tabularx}{\textwidth}{@{}lYYY@{}}
+\toprule
+Dataset & Train & Validation & Test \\
+\midrule
+ATLASv2-EDR & 2022-07-16 -- 18 (2\,d) & 2022-07-17 & 2022-07-19 -- 20 (2\,d) \\
+CARBANAKv2-EDR & 2024-04-20 -- 29 (8\,d) & 2024-04-22 -- 26 (2\,d) & 2024-04-30 -- 2024-05-10 (7\,d) \\
+OpTC h501 & 2019-09-19 -- 21 (3\,d) & 2019-09-22 & 2019-09-23 -- 25 (3\,d) \\
+OpTC h051 & 2019-09-19 -- 21 (3\,d) & 2019-09-22 & 2019-09-23 -- 25 (3\,d) \\
+OpTC h201 & 2019-09-19 -- 21 (3\,d) & 2019-09-22 & 2019-09-23 -- 25 (3\,d) \\
+CLEARSCOPE E3 & 2018-04-03 -- 10 (7\,d) & 2018-04-02 & 2018-04-11 -- 12 (2\,d) \\
+CADETS E3 & 2018-04-02 -- 09 (7\,d) & 2018-04-10 & 2018-04-06 -- 13 (4\,d) \\
+THEIA E3 & 2018-04-02 -- 08 (7\,d) & 2018-04-09 & 2018-04-10 -- 13 (3\,d) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+LANL: development = days 2--12, test = days 13--30 of the red-team events (day index from the start of the data).
+
+\subsection{Models and hyperparameters}
+\begin{itemize}
+\item Network features (per host-hour): flows out, distinct destination IPs and ports, share of failed
+connections, new and rare external destinations (rare = contacted by at most two internal hosts before), beacon
+regularity over 72\,h, bytes out and in, new admin-port edges, GNN edge surprise. Counts and bytes are transformed
+with $\log(1+x)$; ratios are left unchanged. ``New'' means not seen on any earlier day.
+\item Per-host tail model: one-sided empirical upper-tail probability of each feature against the host's own
+training hours (all hosts' hours if the host has fewer than 24); channel score = most extreme feature (+0.01 $\times$
+channel mean); conformal $p$-values from cross-fitted calibration (training days split by parity, plus the calibration
+days); hour score $=-\log_{10}(\min_c p_c \times 6)$.
+\item Pooled baselines: ECOD (pyod defaults); Isolation Forest (200 trees); autoencoder = scikit-learn
+\texttt{MLPRegressor} with hidden layers (32, 8, 32), 300 iterations, on standardised features. Seed 42 unless stated.
+\item GNN lateral channel: learnable 32-d node embeddings, two GraphSAGE-mean layers, MLP decoder over
+(source, destination, port embedding of size 8); 300 epochs of Adam (learning rate 0.01, weight decay $10^{-4}$);
+three random destinations and two random ports per observed triple as negatives; training days scored out of sample
+by two models trained on alternate days; seed 42.
+\item Velox / Velox-lite: PIDSMaker's Velox (tuned configuration, embedding size 32) and our re-implementation
+(word2vec embeddings of node labels with PIDSMaker's tokenizer, size 32, 10 epochs; a linear layer to 128 dimensions;
+source and destination projections to 256; dropout 0.5; one hidden layer; cross-entropy over the event type; 3 epochs
+of Adam with learning rate $10^{-3}$ on at most 4 million sampled training events). Node score = maximum event loss.
+\item Explanation baselines: KernelSHAP with 20 $k$-means background points and 200 samples; TreeSHAP on the
+Isolation Forest; occlusion replaces a channel's features by their training medians; reconstruction-error grouping
+takes the channel with the largest mean squared per-feature error.
+\item Blast radius: logon weights $\log(1+n)\,e^{-\Delta d/7}$ over earlier days; PageRank restart 0.15, 50
+iterations, undirected graph.
+\end{itemize}
+
+\subsection{Windows rule prior (process path or command line)}
+Each matching rule adds one point to a process; process-creation events add two points to both endpoints when a
+document, mail or browser process spawns an interpreter or living-off-the-land binary, and one point when an
+interpreter spawns such a tool.
+\begin{itemize}\footnotesize
+\item \texttt{powershell.\allowbreak{}*\allowbreak{}(\allowbreak{}-\allowbreak{}enc|\allowbreak{}-\allowbreak{}e |\allowbreak{}encodedcommand|\allowbreak{}iex|\allowbreak{}invoke-\allowbreak{}expression|\allowbreak{}downloadstring|\allowbreak{}-\allowbreak{}nop|\allowbreak{}bypass)\allowbreak{}} $\rightarrow$ T1059.\allowbreak{}001
+\item \texttt{\textbackslash\{\}\textbackslash\{\}powershell(\allowbreak{}\_ise)\allowbreak{}?\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1059.\allowbreak{}001
+\item \texttt{\textbackslash\{\}\textbackslash\{\}cmd\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1059.\allowbreak{}003
+\item \texttt{\textbackslash\{\}\textbackslash\{\}mshta\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1218.\allowbreak{}005
+\item \texttt{\textbackslash\{\}\textbackslash\{\}rundll32\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1218.\allowbreak{}011
+\item \texttt{\textbackslash\{\}\textbackslash\{\}regsvr32\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1218.\allowbreak{}010
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}wmic|\allowbreak{}wmiprvse)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1047
+\item \texttt{\textbackslash\{\}\textbackslash\{\}schtasks\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1053.\allowbreak{}005
+\item \texttt{reg(\allowbreak{}\textbackslash\{\}.\allowbreak{}exe)\allowbreak{}?\allowbreak{} add .\allowbreak{}*\allowbreak{}\textbackslash\{\}\textbackslash\{\}run} $\rightarrow$ T1547.\allowbreak{}001
+\item \texttt{certutil.\allowbreak{}*\allowbreak{}(\allowbreak{}urlcache|\allowbreak{}decode)\allowbreak{}} $\rightarrow$ T1105
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}whoami)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1033
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}net1?\allowbreak{}|\allowbreak{}netstat)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1087
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}ipconfig|\allowbreak{}arp|\allowbreak{}route)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1016
+\item \texttt{\textbackslash\{\}\textbackslash\{\}systeminfo\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1082
+\item \texttt{\textbackslash\{\}\textbackslash\{\}tasklist\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1057
+\item \texttt{vssadmin.\allowbreak{}*\allowbreak{}delete} $\rightarrow$ T1490
+\item \texttt{\textbackslash\{\}\textbackslash\{\}psexe(\allowbreak{}c|\allowbreak{}svc)\allowbreak{}} $\rightarrow$ T1569.\allowbreak{}002
+\item \texttt{\textbackslash\{\}\textbackslash\{\}mstsc\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1021.\allowbreak{}001
+\item \texttt{lsass} $\rightarrow$ T1003.\allowbreak{}001
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}winword|\allowbreak{}excel|\allowbreak{}powerpnt|\allowbreak{}outlook)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1566.\allowbreak{}001
+\item \texttt{\textbackslash\{\}\textbackslash\{\}(\allowbreak{}wscript|\allowbreak{}cscript)\allowbreak{}\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1059.\allowbreak{}005
+\item \texttt{\textbackslash\{\}\textbackslash\{\}bitsadmin\textbackslash\{\}.\allowbreak{}exe} $\rightarrow$ T1197
+\end{itemize}
+
+\subsection{Linux / FreeBSD / Android rule prior}
+Same point scheme; parents are network-facing programs (browsers, mail clients, web, ssh and ftp servers), children
+are shells, interpreters and download or discovery tools.
+\begin{itemize}\footnotesize
+\item \texttt{(\allowbreak{}\^{}|\allowbreak{}/\allowbreak{})\allowbreak{}(\allowbreak{}tmp|\allowbreak{}dev/\allowbreak{}shm|\allowbreak{}var/\allowbreak{}tmp)\allowbreak{}/\allowbreak{}[\^{} ]*\allowbreak{}} $\rightarrow$ T1059 exec from temp dir
+\item \texttt{chmod\textbackslash\{\}s+\allowbreak{}(\allowbreak{}\textbackslash\{\}+\allowbreak{}x|\allowbreak{}[0-\allowbreak{}7]*\allowbreak{}7[0-\allowbreak{}7]*\allowbreak{})\allowbreak{}} $\rightarrow$ T1222.\allowbreak{}002
+\item \texttt{base64\textbackslash\{\}s+\allowbreak{}(\allowbreak{}-\allowbreak{}d|\allowbreak{}-\allowbreak{}-\allowbreak{}decode)\allowbreak{}} $\rightarrow$ T1140
+\item \texttt{(\allowbreak{}wget|\allowbreak{}curl)\allowbreak{}\textbackslash\{\}s+\allowbreak{}[\^{}|\allowbreak{}]*\allowbreak{}http} $\rightarrow$ T1105
+\item \texttt{(\allowbreak{}curl|\allowbreak{}wget)\allowbreak{}[\^{}|\allowbreak{}]*\allowbreak{}\textbackslash\{\}|\allowbreak{}\textbackslash\{\}s*\allowbreak{}(\allowbreak{}ba)\allowbreak{}?\allowbreak{}sh} $\rightarrow$ T1059.\allowbreak{}004
+\item \texttt{\textbackslash\{\}b(\allowbreak{}nc|\allowbreak{}ncat|\allowbreak{}netcat|\allowbreak{}socat)\allowbreak{}\textbackslash\{\}b.\allowbreak{}*\allowbreak{}(\allowbreak{}-\allowbreak{}e|\allowbreak{}-\allowbreak{}c|\allowbreak{}exec)\allowbreak{}} $\rightarrow$ T1059.\allowbreak{}004 reverse shell
+\item \texttt{/\allowbreak{}etc/\allowbreak{}(\allowbreak{}passwd|\allowbreak{}shadow|\allowbreak{}sudoers)\allowbreak{}} $\rightarrow$ T1003.\allowbreak{}008
+\item \texttt{crontab|\allowbreak{}/\allowbreak{}etc/\allowbreak{}cron} $\rightarrow$ T1053.\allowbreak{}003
+\item \texttt{\textbackslash\{\}.\allowbreak{}ssh/\allowbreak{}authorized\_keys} $\rightarrow$ T1098.\allowbreak{}004
+\item \texttt{\textbackslash\{\}b(\allowbreak{}whoami|\allowbreak{}id|\allowbreak{}uname -\allowbreak{}a|\allowbreak{}hostname|\allowbreak{}ifconfig|\allowbreak{}ip addr|\allowbreak{}netstat|\allowbreak{}ss -\allowbreak{})\allowbreak{}\textbackslash\{\}b} $\rightarrow$ T1033/\allowbreak{}T1082/\allowbreak{}T1016
+\item \texttt{\textbackslash\{\}b(\allowbreak{}useradd|\allowbreak{}adduser|\allowbreak{}usermod)\allowbreak{}\textbackslash\{\}b} $\rightarrow$ T1136.\allowbreak{}001
+\item \texttt{\textbackslash\{\}b(\allowbreak{}scp|\allowbreak{}sftp)\allowbreak{}\textbackslash\{\}b} $\rightarrow$ T1105
+\item \texttt{insmod|\allowbreak{}modprobe} $\rightarrow$ T1547.\allowbreak{}006
+\item \texttt{history\textbackslash\{\}s+\allowbreak{}-\allowbreak{}c|\allowbreak{}rm\textbackslash\{\}s+\allowbreak{}-\allowbreak{}rf\textbackslash\{\}s+\allowbreak{}/\allowbreak{}var/\allowbreak{}log|\allowbreak{}unset\textbackslash\{\}s+\allowbreak{}HISTFILE} $\rightarrow$ T1070
+\end{itemize}
+
+\subsection{Ground-truth channels for the explanation study}
+An explanation counts as correct if the explained channel is among the ground-truth channels of the host-hour;
+host-hours without a mappable channel are excluded. The chance level is the expected accuracy of choosing one of the
+four channels uniformly at random, that is, the average of $|\mathrm{GT}\cap\{\text{recon, c2, lateral, exfil}\}|/4$
+over the evaluated host-hours.
+\begin{itemize}\footnotesize
+\item DEDALE (ATT\&CK tactic ID): TA0043, TA0007 $\rightarrow$ recon; TA0011 $\rightarrow$ c2; TA0008 $\rightarrow$
+lateral; TA0010 $\rightarrow$ exfil; TA0001, TA0009 $\rightarrow$ none.
+\item Unraveled (stage): Reconnaissance $\rightarrow$ recon; Establish Foothold $\rightarrow$ c2; Lateral Movement
+$\rightarrow$ lateral; Data Exfiltration $\rightarrow$ exfil; Cover up $\rightarrow$ none.
+\item OpTC: flows to a documented attacker server $\rightarrow$ c2; report-timeline entries by keyword (scan
+$\rightarrow$ recon; pivot, WMI, RDP, spread $\rightarrow$ lateral; exfiltrat, netcat $\rightarrow$ exfil).
+\end{itemize}
+
+\subsection{Values behind Figure~\ref{fig:budget}}
+\begin{table}[!htbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Ground-truth nodes found within the top-$k$ alerts (seed 0).}
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & 10 & 25 & 50 & 100 & 250 & 500 \\
+\midrule
+ATLASv2 (dev) & Learned & 0 & 0 & 0 & 0 & 2 & 5 \\
+ & Knowledge & 3 & 13 & 14 & 40 & 48 & 48 \\
+ & Sum & 7 & 10 & 16 & 36 & 36 & 36 \\
+ & Interleave & 1 & 5 & 13 & 14 & 42 & 48 \\
+\midrule
+OpTC h501 & Learned & 2 & 2 & 2 & 2 & 4 & 4 \\
+ & Knowledge & 0 & 2 & 2 & 2 & 4 & 6 \\
+ & Sum & 0 & 2 & 2 & 2 & 5 & 6 \\
+ & Interleave & 1 & 3 & 4 & 4 & 5 & 6 \\
+\midrule
+OpTC h051 & Learned & 0 & 0 & 0 & 1 & 5 & 25 \\
+ & Knowledge & 3 & 4 & 4 & 7 & 9 & 30 \\
+ & Sum & 3 & 3 & 4 & 4 & 6 & 27 \\
+ & Interleave & 1 & 3 & 4 & 4 & 9 & 30 \\
+\midrule
+OpTC h201 & Learned & 0 & 1 & 1 & 1 & 2 & 6 \\
+ & Knowledge & 0 & 0 & 1 & 4 & 6 & 8 \\
+ & Sum & 0 & 0 & 1 & 4 & 5 & 8 \\
+ & Interleave & 0 & 0 & 1 & 2 & 5 & 8 \\
+\midrule
+CADETS E3 & Learned & 0 & 0 & 4 & 10 & 14 & 22 \\
+ & Knowledge & 0 & 0 & 0 & 0 & 0 & 16 \\
+ & Sum & 0 & 0 & 0 & 0 & 0 & 16 \\
+ & Interleave & 0 & 0 & 0 & 4 & 10 & 15 \\
+\midrule
+THEIA E3 & Learned & 1 & 1 & 1 & 1 & 1 & 11 \\
+ & Knowledge & 0 & 0 & 0 & 0 & 0 & 0 \\
+ & Sum & 0 & 0 & 0 & 0 & 0 & 0 \\
+ & Interleave & 1 & 1 & 1 & 1 & 1 & 1 \\
+\midrule
+CLEARSCOPE E3 & Learned & 0 & 0 & 0 & 1 & 1 & 1 \\
+ & Knowledge & 0 & 0 & 0 & 1 & 1 & 1 \\
+ & Sum & 0 & 0 & 0 & 1 & 1 & 1 \\
+ & Interleave & 0 & 0 & 0 & 1 & 1 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

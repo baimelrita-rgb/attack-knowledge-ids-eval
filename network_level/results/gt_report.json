@@ -1,0 +1,164 @@
+{
+ "timeline_host_hours": 70,
+ "timeline_host_hours_with_traffic_row": 68,
+ "c2_flow_host_hours": 1451,
+ "attack_host_hours_in_train_or_cal_removed": [
+  {
+   "host": "142.20.59.180",
+   "day": "2019-09-16",
+   "hour": 435741,
+   "n_attack_flows": 3
+  },
+  {
+   "host": "142.20.60.2",
+   "day": "2019-09-16",
+   "hour": 435741,
+   "n_attack_flows": 3
+  },
+  {
+   "host": "142.20.61.148",
+   "day": "2019-09-16",
+   "hour": 435741,
+   "n_attack_flows": 3
+  },
+  {
+   "host": "142.20.61.3",
+   "day": "2019-09-16",
+   "hour": 435741,
+   "n_attack_flows": 3
+  },
+  {
+   "host": "142.20.59.180",
+   "day": "2019-09-16",
+   "hour": 435742,
+   "n_attack_flows": 1
+  },
+  {
+   "host": "142.20.60.2",
+   "day": "2019-09-16",
+   "hour": 435742,
+   "n_attack_flows": 1
+  },
+  {
+   "host": "142.20.61.148",
+   "day": "2019-09-16",
+   "hour": 435742,
+   "n_attack_flows": 1
+  },
+  {
+   "host": "142.20.61.3",
+   "day": "2019-09-16",
+   "hour": 435742,
+   "n_attack_flows": 1
+  },
+  {
+   "host": "142.20.56.77",
+   "day": "2019-09-19",
+   "hour": 435805,
+   "n_attack_flows": 43
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435806,
+   "n_attack_flows": 4
+  },
+  {
+   "host": "142.20.56.77",
+   "day": "2019-09-19",
+   "hour": 435806,
+   "n_attack_flows": 6
+  },
+  {
+   "host": "142.20.56.78",
+   "day": "2019-09-19",
+   "hour": 435806,
+   "n_attack_flows": 4
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435807,
+   "n_attack_flows": 4
+  },
+  {
+   "host": "142.20.56.77",
+   "day": "2019-09-19",
+   "hour": 435807,
+   "n_attack_flows": 3
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435809,
+   "n_attack_flows": 106
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435810,
+   "n_attack_flows": 9
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435811,
+   "n_attack_flows": 48
+  },
+  {
+   "host": "142.20.56.101",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 9
+  },
+  {
+   "host": "142.20.56.208",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 6
+  },
+  {
+   "host": "142.20.56.238",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 5
+  },
+  {
+   "host": "142.20.56.51",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 6
+  },
+  {
+   "host": "142.20.56.52",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 6
+  },
+  {
+   "host": "142.20.57.95",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 5
+  },
+  {
+   "host": "142.20.57.96",
+   "day": "2019-09-19",
+   "hour": 435812,
+   "n_attack_flows": 5
+  },
+  {
+   "host": "142.20.56.124",
+   "day": "2019-09-20",
+   "hour": 435831,
+   "n_attack_flows": 21
+  },
+  {
+   "host": "142.20.56.125",
+   "day": "2019-09-20",
+   "hour": 435831,
+   "n_attack_flows": 4
+  }
+ ],
+ "positive_host_hours_total": 1430
+}

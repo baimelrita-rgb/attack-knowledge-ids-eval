@@ -1,0 +1,4 @@
+capture,label,attack_step,tactic,technique,flows
+orange_servers,1,collection,TA0009,T1005,5
+orange_servers,1,discovery,TA0007,T1135,1
+orange_servers,1,lateral_movement,TA0008,T1210,3

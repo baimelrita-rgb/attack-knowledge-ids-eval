@@ -1,0 +1,27 @@
+capture,Activity,Stage,Signature,DefenderResponse,flows
+net1011x,Normal,Benign,None,Benign,1792756
+net1012x,Normal,Benign,None,Benign,734331
+net1013x,Normal,Benign,None,Benign,1038246
+net1013x,Remote System Discovery,Lateral Movement,APT,Benign,164
+net1014x,Normal,Benign,None,Benign,207423
+net1015x,Normal,Benign,None,Benign,174506
+net1015x,Remote System Discovery,Lateral Movement,APT,Benign,153
+netgw,Normal,Benign,None,Benign,2832652
+netgw,Remote System Discovery,Reconnaissance,APT,Detected,685
+net1013x,Encrypted Channel: Symmetric Cryptography,Establish Foothold,APT,Benign,27087
+net1013x,Exfiltration over C2 channel,Data Exfiltration,APT,Benign,441
+netgw,Exfiltration over C2 channel,Data Exfiltration,APT,Benign,5
+netgw,Maintain Access,Lateral Movement,APT,Benign,27128
+netgw,Encrypted Channel: Symmetric Cryptography,Establish Foothold,APT,Benign,24
+net1013x,Data Transfer Size Limits,Data Exfiltration,APT,Benign,5984
+netgw,Data Transfer Size Limits,Data Exfiltration,APT,Benign,1
+netgw,Hijack Execution Flow: Path Interception by PATH Environment Variable,Establish Foothold,nan,Benign,7
+net1014x,Active Scanning: Scanning IP Blocks,Reconnaissance,AA,Detected,2944
+netgw,Active Scanning: Scanning IP Blocks,Reconnaissance,AA,Detected,8506
+netgw,Active Scanning: Vulnerability Scanning,Reconnaissance,AA,Detected,5
+net1014x,Bruteforce: Password Guessing,Reconnaissance,AA,Detected,4
+netgw,Bruteforce: Password Guessing,Reconnaissance,AA,Detected,22652
+net1013x,Unsecured Credentials,Data Exfiltration,APT,Benign,88
+net1015x,Data Transfer Size Limits,Data Exfiltration,APT,Benign,1003
+net1013x,Remove Traces,Cover up,APT,Benign,358
+netgw,Remove Traces,Cover up,APT,Benign,4

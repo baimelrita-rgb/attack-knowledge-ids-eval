@@ -1,0 +1,6 @@
+capture,technique,ip_src,ip_dst,port_dst,proto,service,flows
+orange_servers,T1005,172.16.1.2,172.16.0.2,22,tcp,ssh,5
+orange_servers,T1135,172.16.1.3,172.16.0.2,445,tcp,"gssapi,smb,krb",1
+orange_servers,T1210,172.16.1.2,172.16.0.2,1024,tcp,dce_rpc,1
+orange_servers,T1210,172.16.1.2,172.16.0.2,135,tcp,dce_rpc,1
+orange_servers,T1210,172.16.1.2,172.16.0.2,445,tcp,"smb,ntlm",1

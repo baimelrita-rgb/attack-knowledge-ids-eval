@@ -1,0 +1,1213 @@
+{
+ "processed/network-flows/Week1_Day1-2_05262021-05272021/net1011x_Flow_labeled.csv": {
+  "bytes": 73480311,
+  "etag": "1d29a61ef1ecac6a8863b1972dec5962-5",
+  "md5": "034d914768fdb52a79e3bc50490c1044",
+  "md5_ok": null,
+  "sha256": "423b846bf948c516d880659ccbbdc6c43d9bab6a62658003dee0c4477b87ee1d"
+ },
+ "processed/network-flows/Week1_Day1-2_05262021-05272021/net1012x_Flow_labeled.csv": {
+  "bytes": 18430596,
+  "etag": "d7d007f3b60edf5c02e4a0269c7d455b-2",
+  "md5": "552bc633bf128d0b80fbfac0cda36286",
+  "md5_ok": null,
+  "sha256": "208b86094bd617ddbd735c1b0d8ab8b0416e98cff9f07de005f97a72ea54657c"
+ },
+ "processed/network-flows/Week1_Day1-2_05262021-05272021/net1013x_Flow_labeled.csv": {
+  "bytes": 31663174,
+  "etag": "f69b79985e46afa99d65f15a046ca93f-2",
+  "md5": "51b0f28468f1800a9dc65d4271eefad9",
+  "md5_ok": null,
+  "sha256": "516efbcc64abbd50e83f159677ce95f54b7d01127b83840d2c80b8d996b042c4"
+ },
+ "processed/network-flows/Week1_Day1-2_05262021-05272021/net1014x_Flow_labeled.csv": {
+  "bytes": 4041629,
+  "etag": "721db9c4b4c61b96f85cb73a4f2a7702",
+  "md5": "721db9c4b4c61b96f85cb73a4f2a7702",
+  "md5_ok": true,
+  "sha256": "01ae9158d1224e74a6e233518e98e138a5aa93324f51db4ce492c8fb2433ac53"
+ },
+ "processed/network-flows/Week1_Day1-2_05262021-05272021/net1015x_Flow_labeled.csv": {
+  "bytes": 6324401,
+  "etag": "7d4c54582f07f7f6c385243ddeefd208",
+  "md5": "7d4c54582f07f7f6c385243ddeefd208",
+  "md5_ok": true,
+  "sha256": "4bfa79495fc51e2bd1bfa8eb4db9bfe1970de708cef2ec4decb68401685be31a"
+ },
+ "processed/network-flows/Week1_Day3_05282021/net1011x_Flow_labeled.csv": {
+  "bytes": 38340422,
+  "etag": "3a0502176321f023032792f4d1c05251-3",
+  "md5": "ca0077b3cbc1e6021b5144fdcf7e6c83",
+  "md5_ok": null,
+  "sha256": "53779a239d34fe425be64db01eacb8616832c176ac0ea80ce77d3c91e73225f0"
+ },
+ "processed/network-flows/Week1_Day3_05282021/net1012x_Flow_labeled.csv": {
+  "bytes": 16855365,
+  "etag": "30e6a91038556c45097bd0abd18a781c-2",
+  "md5": "c98b8de992ec311e17bcee829b33f2e7",
+  "md5_ok": null,
+  "sha256": "e6c4f841b72c9ce8506b41550f682d6a97fce782fec21547a65d8a1c7766dd84"
+ },
+ "processed/network-flows/Week1_Day3_05282021/net1013x_Flow_labeled.csv": {
+  "bytes": 16122759,
+  "etag": "bf368f318212ae61de1722a105d0cd6e",
+  "md5": "bf368f318212ae61de1722a105d0cd6e",
+  "md5_ok": true,
+  "sha256": "bbb30af294bab457ce1b11db0656e11a8d3463d325344d4d00c0d2f3edb41866"
+ },
+ "processed/network-flows/Week1_Day3_05282021/net1014x_Flow_labeled.csv": {
+  "bytes": 2365369,
+  "etag": "2d29f3aca768fde915d0082cedb6c9e7",
+  "md5": "2d29f3aca768fde915d0082cedb6c9e7",
+  "md5_ok": true,
+  "sha256": "095b2385626586d50f4c126d51c8c60011c0d95b7328064439f0794b23267de5"
+ },
+ "processed/network-flows/Week1_Day3_05282021/net1015x_Flow_labeled.csv": {
+  "bytes": 3805175,
+  "etag": "e097cf2a3925f2f9485c982c118dd078",
+  "md5": "e097cf2a3925f2f9485c982c118dd078",
+  "md5_ok": true,
+  "sha256": "f24cd2e507aace269708458f4b7bde7ae0fc651d8735adbbd01ca68f477af882"
+ },
+ "processed/network-flows/Week1_Day4_05292021/net1011x_Flow_labeled.csv": {
+  "bytes": 7464451,
+  "etag": "92468b3e6c8b9de2fa069230dafc10b4",
+  "md5": "92468b3e6c8b9de2fa069230dafc10b4",
+  "md5_ok": true,
+  "sha256": "51f5311a8963e904714372f2d357c03c3919206026f54d227d5a375c7e3ebda8"
+ },
+ "processed/network-flows/Week1_Day4_05292021/net1012x_Flow_labeled.csv": {
+  "bytes": 6416354,
+  "etag": "30711446ce373c10888ea080ee501dd0",
+  "md5": "30711446ce373c10888ea080ee501dd0",
+  "md5_ok": true,
+  "sha256": "d684ce62d8a80a04b8e28b1a980089f85a119bf82530a8d1d3be6a5fd458d930"
+ },
+ "processed/network-flows/Week1_Day4_05292021/net1013x_Flow_labeled.csv": {
+  "bytes": 7687351,
+  "etag": "65c480fa74c35cec7abd1d2c3901903e",
+  "md5": "65c480fa74c35cec7abd1d2c3901903e",
+  "md5_ok": true,
+  "sha256": "d0d9a825be12e86788ffc27cc2d9460ec2cde93ecea5203a338d00b025acb34e"
+ },
+ "processed/network-flows/Week1_Day4_05292021/net1014x_Flow_labeled.csv": {
+  "bytes": 2970093,
+  "etag": "5d5f3a6ae0588f4503e9ee90c28536dd",
+  "md5": "5d5f3a6ae0588f4503e9ee90c28536dd",
+  "md5_ok": true,
+  "sha256": "3158ddc1d09157c21f0dea3ab62198e2ccfc7b043f779c724942fd62cfb19705"
+ },
+ "processed/network-flows/Week1_Day4_05292021/net1015x_Flow_labeled.csv": {
+  "bytes": 4280215,
+  "etag": "e2e6bec41ae79810cd3d7c042a164976",
+  "md5": "e2e6bec41ae79810cd3d7c042a164976",
+  "md5_ok": true,
+  "sha256": "01a159f33936fbb5e5169311ee40a1e87437d15b7445914b32204690d944e34d"
+ },
+ "processed/network-flows/Week1_Day5_05302021/net1011x_Flow_labeled.csv": {
+  "bytes": 6317939,
+  "etag": "3780e3b4dc07e552758b4bcbf6a69b57",
+  "md5": "3780e3b4dc07e552758b4bcbf6a69b57",
+  "md5_ok": true,
+  "sha256": "ce238d3b1c9a574557b42c54f216a540900c7c27e4358f07b76080978c042502"
+ },
+ "processed/network-flows/Week1_Day5_05302021/net1012x_Flow_labeled.csv": {
+  "bytes": 5228074,
+  "etag": "82b0f63feef24031ea6061d51cb030ba",
+  "md5": "82b0f63feef24031ea6061d51cb030ba",
+  "md5_ok": true,
+  "sha256": "db3a9555e2324fa246c6d615e180df9ac4ca827a66978790638797608e99560c"
+ },
+ "processed/network-flows/Week1_Day5_05302021/net1013x_Flow_labeled.csv": {
+  "bytes": 6811483,
+  "etag": "652e9e986341bec08b7cf06d2fd29d98",
+  "md5": "652e9e986341bec08b7cf06d2fd29d98",
+  "md5_ok": true,
+  "sha256": "ea9189809c2d40357fb75f68de164698fc9422859f7649fb76c3b89cf9cd8827"
+ },
+ "processed/network-flows/Week1_Day5_05302021/net1014x_Flow_labeled.csv": {
+  "bytes": 2812868,
+  "etag": "3dd574de6c4f9b37052ea1cbe17dc416",
+  "md5": "3dd574de6c4f9b37052ea1cbe17dc416",
+  "md5_ok": true,
+  "sha256": "971072e2748980bdc3c2af92ce5c2d51f97bd09f7861bee66ff922cbac6543e1"
+ },
+ "processed/network-flows/Week1_Day5_05302021/net1015x_Flow_labeled.csv": {
+  "bytes": 3925504,
+  "etag": "fa19c3e93341a9e345fd95845eae5158",
+  "md5": "fa19c3e93341a9e345fd95845eae5158",
+  "md5_ok": true,
+  "sha256": "2ec136411d3e93e2f89c14352e22cd47fcedcc39bdc3a3252e42116622961415"
+ },
+ "processed/network-flows/Week2_Day1_05312021/net1011x_Flow_labeled.csv": {
+  "bytes": 45095575,
+  "etag": "b1aa74d2f94aae6fd8a06d1260d1f42d-3",
+  "md5": "6083d1842e1f4fa59dab1d7b90810631",
+  "md5_ok": null,
+  "sha256": "9d0148e06db1d9f949f1afbfcc427a3718d3a534f30708eb4f246a18e20fc4c6"
+ },
+ "processed/network-flows/Week2_Day1_05312021/net1012x_Flow_labeled.csv": {
+  "bytes": 12030577,
+  "etag": "cb032329ef2a8555064d1222812f643c",
+  "md5": "cb032329ef2a8555064d1222812f643c",
+  "md5_ok": true,
+  "sha256": "8ed2e4102d09668f67076441b1bd30cb817a083e2f2757780ea4ab6d801bd124"
+ },
+ "processed/network-flows/Week2_Day1_05312021/net1013x_Flow_labeled.csv": {
+  "bytes": 17316361,
+  "etag": "45e495215bf7ca83d3a69a65ccbe4bf1-2",
+  "md5": "2264f4855914b6d215073eb80b96ebff",
+  "md5_ok": null,
+  "sha256": "85b48643455548a2aff75c10718034bfad81267956b3b7265ceac726346f068b"
+ },
+ "processed/network-flows/Week2_Day1_05312021/net1014x_Flow_labeled.csv": {
+  "bytes": 2831913,
+  "etag": "8c42de1720647e0037eb36b3fc977ca6",
+  "md5": "8c42de1720647e0037eb36b3fc977ca6",
+  "md5_ok": true,
+  "sha256": "8826a5ec2dc571f013998cfd11ff06cc57d69f7de3870afb8aba1570966ba691"
+ },
+ "processed/network-flows/Week2_Day1_05312021/net1015x_Flow_labeled.csv": {
+  "bytes": 3966767,
+  "etag": "c965dcc8d521db160ba21154f38e3831",
+  "md5": "c965dcc8d521db160ba21154f38e3831",
+  "md5_ok": true,
+  "sha256": "31b8201764a6f537e8c8dc5e7cf59ba0157f23aa04c283115f64074b31f77ef7"
+ },
+ "processed/network-flows/Week2_Day2_06012021/net1011x_Flow_labeled.csv": {
+  "bytes": 416630,
+  "etag": "211d7d1f550ff9f1b645afcb01537da2",
+  "md5": "211d7d1f550ff9f1b645afcb01537da2",
+  "md5_ok": true,
+  "sha256": "1ff9edb8c33b8a17f49c1392aa8ba1268f13412880c2fc059e69f8cdc2f51208"
+ },
+ "processed/network-flows/Week2_Day2_06012021/net1012x_Flow_labeled.csv": {
+  "bytes": 302670,
+  "etag": "91e9172851847be708650abeb449dcc3",
+  "md5": "91e9172851847be708650abeb449dcc3",
+  "md5_ok": true,
+  "sha256": "b20197f741cd27f6d55e28c9d31b674a3ab2e692fbc031941a386b9f413e4cc7"
+ },
+ "processed/network-flows/Week2_Day2_06012021/net1013x_Flow_labeled.csv": {
+  "bytes": 90530,
+  "etag": "13e6ac97d4d76be1f1649be916547693",
+  "md5": "13e6ac97d4d76be1f1649be916547693",
+  "md5_ok": true,
+  "sha256": "ce3b2c9f94cad785d6a362964af9c9152b8243346dc42c86f723499881dddb59"
+ },
+ "processed/network-flows/Week2_Day2_06012021/net1014x_Flow_labeled.csv": {
+  "bytes": 136574,
+  "etag": "53018633624e67a123369ee092f778ed",
+  "md5": "53018633624e67a123369ee092f778ed",
+  "md5_ok": true,
+  "sha256": "7dd330c3dc7292127f21b86d15b675420d36a40aaa6e8d25db97de051627b309"
+ },
+ "processed/network-flows/Week2_Day2_06012021/net1015x_Flow_labeled.csv": {
+  "bytes": 138759,
+  "etag": "6c187e01ba341de37d442054b5aa149f",
+  "md5": "6c187e01ba341de37d442054b5aa149f",
+  "md5_ok": true,
+  "sha256": "f3f7f56cf2431fde88ada205920eb50b39dc056e21ea843520f01354a550e2dc"
+ },
+ "processed/network-flows/Week2_Day2_06012021/netgw_Flow_labeled.csv": {
+  "bytes": 900339,
+  "etag": "eff4b02d58d7a6e4db206ae02c274bc2",
+  "md5": "eff4b02d58d7a6e4db206ae02c274bc2",
+  "md5_ok": true,
+  "sha256": "118774469877305a22eac2b0a33e2f486ce473e6147a955285b1b35858ca78c6"
+ },
+ "processed/network-flows/Week2_Day3_06022021/net1011x_Flow_labeled.csv": {
+  "bytes": 104283453,
+  "etag": "141c16f6afa1236b10745e7942196d00-7",
+  "md5": "d91330e7da915c5564e85c2990072acb",
+  "md5_ok": null,
+  "sha256": "b2d18c2b29ade491edbe7da2d40d04f6241fca707a6e9e119c476b8eb7cc1761"
+ },
+ "processed/network-flows/Week2_Day3_06022021/net1012x_Flow_labeled.csv": {
+  "bytes": 42481465,
+  "etag": "5b4e1a471c2fbdbe0ae0c1552f7c7a5a-3",
+  "md5": "20018fd3d843bcb7e7b53035c66d12f1",
+  "md5_ok": null,
+  "sha256": "58c03765f493cccd4b60882d177d7ddf40ad4485c3e6dda08f53bb121d6e773b"
+ },
+ "processed/network-flows/Week2_Day3_06022021/net1013x_Flow_labeled.csv": {
+  "bytes": 59706387,
+  "etag": "a458d878ceb99f21eea3fc9e408c2020-4",
+  "md5": "11802308d7e13a1940ba4c0ddb2fabc9",
+  "md5_ok": null,
+  "sha256": "ac21d7879f7c05a905fa064a7cd95c8131fe62c7ae1af472fdc65108640697bc"
+ },
+ "processed/network-flows/Week2_Day3_06022021/net1014x_Flow_labeled.csv": {
+  "bytes": 14872472,
+  "etag": "f64d0b3a16699d790eba9c35cf64c8a2",
+  "md5": "f64d0b3a16699d790eba9c35cf64c8a2",
+  "md5_ok": true,
+  "sha256": "b760570822aedda195896141d88ee89774008f6e555a91138c05ff4e7402c830"
+ },
+ "processed/network-flows/Week2_Day3_06022021/net1015x_Flow_labeled.csv": {
+  "bytes": 1867970,
+  "etag": "c722948d0b3b1e35452d222c973d1b62",
+  "md5": "c722948d0b3b1e35452d222c973d1b62",
+  "md5_ok": true,
+  "sha256": "108a688472d3582c91e5b94d7634e9adc8d206e5117988edb5a3447d08902524"
+ },
+ "processed/network-flows/Week2_Day3_06022021/netgw_Flow_labeled.csv": {
+  "bytes": 23184100,
+  "etag": "ff7ebaba09c982e1ea040e38fe20f64c-2",
+  "md5": "018b0dcca4d197c3ee25e4330f9b44c1",
+  "md5_ok": null,
+  "sha256": "d91d68cfecb1e2b487fd3d9d81648d2df4ba4caff8597a3a930c63de168903d2"
+ },
+ "processed/network-flows/Week2_Day4_06032021/net1011x_Flow_labeled.csv": {
+  "bytes": 61438371,
+  "etag": "b393ef76ea4bba700209defffee789b2-4",
+  "md5": "aebcb7974b3a7a4b7ab6f1361a9032ea",
+  "md5_ok": null,
+  "sha256": "6e0ec29e45c4ab56116e94ca8b3ededa65c1e6d287ac442276e2fc13e714c487"
+ },
+ "processed/network-flows/Week2_Day4_06032021/net1012x_Flow_labeled.csv": {
+  "bytes": 15319314,
+  "etag": "1155a3c80a2bed1f7c4e9a955840640a",
+  "md5": "1155a3c80a2bed1f7c4e9a955840640a",
+  "md5_ok": true,
+  "sha256": "ccfbb90ba283d39440c1da501f38ab3cd0ced74d37c32b9b1fb98d9c2891232d"
+ },
+ "processed/network-flows/Week2_Day4_06032021/net1013x_Flow_labeled.csv": {
+  "bytes": 25671214,
+  "etag": "0a73b4b99fda6cb6cb393fa93d34a02d-2",
+  "md5": "b8d67fcaa833717e6a856997e7d338e5",
+  "md5_ok": null,
+  "sha256": "1b05a2cbcba753054be9facd985e5140ac88913a22e311cffdafb346ccf5ebcb"
+ },
+ "processed/network-flows/Week2_Day4_06032021/net1014x_Flow_labeled.csv": {
+  "bytes": 1946067,
+  "etag": "77ac117e21579b0b71d6c2ea082521b0",
+  "md5": "77ac117e21579b0b71d6c2ea082521b0",
+  "md5_ok": true,
+  "sha256": "0f0c305921d14e3ac500856d4c0db4fd9a16c518f463fa74c5fd68122c1e1715"
+ },
+ "processed/network-flows/Week2_Day4_06032021/net1015x_Flow_labeled.csv": {
+  "bytes": 1867037,
+  "etag": "139a07b4a3fd760a14967b0d36f90cde",
+  "md5": "139a07b4a3fd760a14967b0d36f90cde",
+  "md5_ok": true,
+  "sha256": "5d8d23060c8c8c925134be4a27addb7eebb8cdbe04b1edf5e4f97a3ee247a794"
+ },
+ "processed/network-flows/Week2_Day4_06032021/netgw_Flow_labeled.csv": {
+  "bytes": 108855953,
+  "etag": "fd048ae4c05fc9d6b54dd647833ef452-7",
+  "md5": "1ff47f75c954a02ee32a0c6b642d292f",
+  "md5_ok": null,
+  "sha256": "3defad4aa9972d15f20cb5ba3c90ae04624e2ded2bb6b6ef34d8f02bb95a4206"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/net1011x_Flow_labeled.csv": {
+  "bytes": 33055522,
+  "etag": "1b202a6d11dca7915f77a2d14edf4d6e-2",
+  "md5": "4c949e710de837833433fa4af5c215fe",
+  "md5_ok": null,
+  "sha256": "17dfd5d8acfd54335b7e81cc115039ab228a649f2514cc5e50f3c8b7169b2215"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/net1012x_Flow_labeled.csv": {
+  "bytes": 23562198,
+  "etag": "d1d2f9dc317001e7b8ce923041652f06-2",
+  "md5": "641071c0d97b66f4dae68ef4d5f0a51e",
+  "md5_ok": null,
+  "sha256": "5c48a948c256ad7d4d714362e0c5883766fa477914b723c9893bdae6aaeade38"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/net1013x_Flow_labeled.csv": {
+  "bytes": 17655971,
+  "etag": "e092286002a4f0fc236264c63ba89e3e-2",
+  "md5": "3f59de72c1d64a96547bdd5799b993a6",
+  "md5_ok": null,
+  "sha256": "6bed60850cc807d037b0a8db9c80804c1336397011bca663e4eaba90d0e53f1e"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/net1014x_Flow_labeled.csv": {
+  "bytes": 6492796,
+  "etag": "a5b097bebbca33f31445984c55d11429",
+  "md5": "a5b097bebbca33f31445984c55d11429",
+  "md5_ok": true,
+  "sha256": "2495b4980e53caf83168cef5fe9b4dd9f32ed363f3ac1455680cb29f39c16c69"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/net1015x_Flow_labeled.csv": {
+  "bytes": 5922145,
+  "etag": "f78cb9a26b3763a5f33e2aa94577602b",
+  "md5": "f78cb9a26b3763a5f33e2aa94577602b",
+  "md5_ok": true,
+  "sha256": "23da3bce678f26565ab1af17cf1de6018f3a30c2819e8210cca8d64092d1812e"
+ },
+ "processed/network-flows/Week2_Day5-7_06042021-06062021/netgw_Flow_labeled.csv": {
+  "bytes": 71870877,
+  "etag": "94e1cbba3805e676c568132d60e77497-5",
+  "md5": "3d92dfa4ee96ce74b1d4860ed99bc4b4",
+  "md5_ok": null,
+  "sha256": "c104394cdb3d79f5007a202ad1c3e8150148951ab72e7d9be0f688b4e1108391"
+ },
+ "processed/network-flows/Week3_Day1_06072021/net1011x_Flow_labeled.csv": {
+  "bytes": 55677805,
+  "etag": "4964c94b1707251e22ee016122d473f2-4",
+  "md5": "d252205405822b78d2cd5bd38207efcf",
+  "md5_ok": null,
+  "sha256": "6f0ac01b276636d352e7c539fb698a346689f55429d08c8e20f3a417e672c89a"
+ },
+ "processed/network-flows/Week3_Day1_06072021/net1012x_Flow_labeled.csv": {
+  "bytes": 14514152,
+  "etag": "c1aa35886de8e0db8cb91fc2c90bd362",
+  "md5": "c1aa35886de8e0db8cb91fc2c90bd362",
+  "md5_ok": true,
+  "sha256": "f930cd0cf834f0d81f98cab037a1bc7bc5bfba4d38e01604614eaae04d14708a"
+ },
+ "processed/network-flows/Week3_Day1_06072021/net1013x_Flow_labeled.csv": {
+  "bytes": 18537045,
+  "etag": "9650aa0f1b0aa881be8be38554381c8f-2",
+  "md5": "2e48030ec8dec8170251cea4aa75eb85",
+  "md5_ok": null,
+  "sha256": "04757bf35ee4d77232752cd332ffa522b23c58f1860a758d85bde8ffc3f07107"
+ },
+ "processed/network-flows/Week3_Day1_06072021/net1014x_Flow_labeled.csv": {
+  "bytes": 2125472,
+  "etag": "01c2eec14e611c2d6645bbcc0f1a4873",
+  "md5": "01c2eec14e611c2d6645bbcc0f1a4873",
+  "md5_ok": true,
+  "sha256": "56ffbadbf06f8a92deb7b59eafbf2c3053212617e27436aadc84cdc8c538f825"
+ },
+ "processed/network-flows/Week3_Day1_06072021/net1015x_Flow_labeled.csv": {
+  "bytes": 2042764,
+  "etag": "78c35a0404d8fb76132efb1a39720a04",
+  "md5": "78c35a0404d8fb76132efb1a39720a04",
+  "md5_ok": true,
+  "sha256": "239eb8e384baa2b19c8e3cb6f0c35710667be8e6e35b20ceb6c810d8484b2bf7"
+ },
+ "processed/network-flows/Week3_Day1_06072021/netgw_Flow_labeled.csv": {
+  "bytes": 95348195,
+  "etag": "7ba717b6ba383abeb9875d20cd5318c0-6",
+  "md5": "d61be5b0788836d7271c3785f304eecb",
+  "md5_ok": null,
+  "sha256": "90dedb6de6a9eabd4e3745d8275652c8da6688f21f9da03ce8c5e3630bc5b32e"
+ },
+ "processed/network-flows/Week3_Day2_06082021/net1011x_Flow_labeled.csv": {
+  "bytes": 2840362,
+  "etag": "bb7e3cee51481f898553aa81bfd130b8",
+  "md5": "bb7e3cee51481f898553aa81bfd130b8",
+  "md5_ok": true,
+  "sha256": "eab2a171d6874ef392b5237fed34a82cdddc43a48a19f1a5a60e506d6a4d79b9"
+ },
+ "processed/network-flows/Week3_Day2_06082021/net1012x_Flow_labeled.csv": {
+  "bytes": 5761668,
+  "etag": "e69ddef21914f5a569b5d82b72e16057",
+  "md5": "e69ddef21914f5a569b5d82b72e16057",
+  "md5_ok": true,
+  "sha256": "28369dd62c884379322a76e6fa8360ea72552407486db225ef900a348bd706a7"
+ },
+ "processed/network-flows/Week3_Day2_06082021/net1013x_Flow_labeled.csv": {
+  "bytes": 7306790,
+  "etag": "594a130a3845850899ef96cca8e082cc",
+  "md5": "594a130a3845850899ef96cca8e082cc",
+  "md5_ok": true,
+  "sha256": "484bc61445b2d2622d8c0445b28f6f8009d5d5858cdd2154d74ccdf5d50ebbd8"
+ },
+ "processed/network-flows/Week3_Day2_06082021/net1014x_Flow_labeled.csv": {
+  "bytes": 138617,
+  "etag": "be748962489c4b1649a22b31252c2e8b",
+  "md5": "be748962489c4b1649a22b31252c2e8b",
+  "md5_ok": true,
+  "sha256": "990b9108abbae0381565bc6e394f212b9329a8dafef8292a48c80355da1da04d"
+ },
+ "processed/network-flows/Week3_Day2_06082021/net1015x_Flow_labeled.csv": {
+  "bytes": 963100,
+  "etag": "6fe13fa988a05870be01eca176bf64fc",
+  "md5": "6fe13fa988a05870be01eca176bf64fc",
+  "md5_ok": true,
+  "sha256": "296f9752b5e2e9d60ba216b1d9058e0b5314f3746fd217799e8126fa010fbe9b"
+ },
+ "processed/network-flows/Week3_Day2_06082021/netgw_Flow_labeled.csv": {
+  "bytes": 37315673,
+  "etag": "5947322588572066896becdb57768110-3",
+  "md5": "945fdda62cabf07c1811bf37a73ed008",
+  "md5_ok": null,
+  "sha256": "26ad02fa32874d7a6ee9649ef03bc90156b149f61ad3deef73fdf51169d8b806"
+ },
+ "processed/network-flows/Week3_Day3_06092021/net1011x_Flow_labeled.csv": {
+  "bytes": 39440260,
+  "etag": "49faa5d56a3973bf7692e4cf719618eb-3",
+  "md5": "3fa6f7bc39ba598dcec2c00ad1d5ef20",
+  "md5_ok": null,
+  "sha256": "a8986a3994051d478942a724fab7e730091f30fee7cef93a51d3d59a7d58bbec"
+ },
+ "processed/network-flows/Week3_Day3_06092021/net1012x_Flow_labeled.csv": {
+  "bytes": 8732545,
+  "etag": "25581c51355965d1b4b35ac6c49835e8",
+  "md5": "25581c51355965d1b4b35ac6c49835e8",
+  "md5_ok": true,
+  "sha256": "578dac3783a86ecaf8316fff6706fcfb50cce06e40aebcd9ec63906f845ea847"
+ },
+ "processed/network-flows/Week3_Day3_06092021/net1013x_Flow_labeled.csv": {
+  "bytes": 13579766,
+  "etag": "f5f7b98656dc3a409395cbd1b4b5a2bd",
+  "md5": "f5f7b98656dc3a409395cbd1b4b5a2bd",
+  "md5_ok": true,
+  "sha256": "57a81623a6676ddb73f74ee3024389ec58901cfbfe36f4aa5e3cd64d9bac8195"
+ },
+ "processed/network-flows/Week3_Day3_06092021/net1014x_Flow_labeled.csv": {
+  "bytes": 2193147,
+  "etag": "ee148a0103fcace5057ce0c24572226f",
+  "md5": "ee148a0103fcace5057ce0c24572226f",
+  "md5_ok": true,
+  "sha256": "3cd01fe5f90065f05b28689f876b4760ff87ada44c077eeee2c7a5251e711a8f"
+ },
+ "processed/network-flows/Week3_Day3_06092021/net1015x_Flow_labeled.csv": {
+  "bytes": 2118122,
+  "etag": "7b98d0cf5c617c2724b7aecfae87684c",
+  "md5": "7b98d0cf5c617c2724b7aecfae87684c",
+  "md5_ok": true,
+  "sha256": "387e3d4588572677ede6a4f892273e21c44f1f4225508c6453f8ef72bf68fea2"
+ },
+ "processed/network-flows/Week3_Day3_06092021/netgw_Flow_labeled.csv": {
+  "bytes": 53271081,
+  "etag": "927b973aab0a8c48e5afb30391ffa929-4",
+  "md5": "1f01e75a759d60ab51ae75c6a4292425",
+  "md5_ok": null,
+  "sha256": "5f43d06a7dad54ec0e5d433f7a5bedd9a337cb3e2127631e043aaf0f5ab65552"
+ },
+ "processed/network-flows/Week3_Day4_06102021/netgw_Flow_labeled.csv": {
+  "bytes": 57775633,
+  "etag": "a32df20dade17c5cc8c23c672dc4afb8-4",
+  "md5": "79d9adb38e7e0a15c92ba703c72cf9b3",
+  "md5_ok": null,
+  "sha256": "4fb3eb530152d67fb3d0c5c4c7f8643e5645a4ca76e1a3c01bb262559d6755b5"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/net1011x_Flow_labeled.csv": {
+  "bytes": 49552690,
+  "etag": "8e627b8a8f51f734abbb8797cfd455f2-3",
+  "md5": "55ba4a700eadfc02a98e519a2943eac6",
+  "md5_ok": null,
+  "sha256": "01e2a582e83c5dd178d973f2ad8d99d4b2b505c8830518dafe5c9c1d08717d95"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/net1012x_Flow_labeled.csv": {
+  "bytes": 21288794,
+  "etag": "bd37d6c145238e62b0aaa0adeaa8c284-2",
+  "md5": "f28b830fee9d9418a56d16b5ec6526e3",
+  "md5_ok": null,
+  "sha256": "c98cad41e57e502a719c6f9d5d8a81569888e5b62ca41fccba577da986287a76"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/net1013x_Flow_labeled.csv": {
+  "bytes": 22273335,
+  "etag": "115c6ea011c770a94caa6513776dc1b8-2",
+  "md5": "c12c526f7fb2021ac517d57f94614a69",
+  "md5_ok": null,
+  "sha256": "07ccd3d9948df7253cb45f9dd7910035b33bf6af110015175c5a9e153fc772f2"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/net1014x_Flow_labeled.csv": {
+  "bytes": 6133364,
+  "etag": "301c999446221e5729dd91014064d8d0",
+  "md5": "301c999446221e5729dd91014064d8d0",
+  "md5_ok": true,
+  "sha256": "6467416de02108c24d99ac7ea9322b222e0cee030a9a3da922609e1c6d9d86a8"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/net1015x_Flow_labeled.csv": {
+  "bytes": 5622156,
+  "etag": "8cdf0e2b256e4912ddccd972a6805bdb",
+  "md5": "8cdf0e2b256e4912ddccd972a6805bdb",
+  "md5_ok": true,
+  "sha256": "1f01f3a1cb394fc60d4393b9b1fff8c77e9cc142d5477a1cff82864bcd487da3"
+ },
+ "processed/network-flows/Week3_Day5-7_06112021-06132021/netgw_Flow_labeled.csv": {
+  "bytes": 101757677,
+  "etag": "b64d4d36eb1d1b2f588e034a97edfe7d-7",
+  "md5": "7de4b452dad1148e3da3a6abe3d16e63",
+  "md5_ok": null,
+  "sha256": "7909c82986ffadd5f751da2e3802cebf759ca359ad217d32838af82df9bbaef5"
+ },
+ "processed/network-flows/Week4_Day03_06162021/net1011x_Flow_labeled.csv": {
+  "bytes": 43505023,
+  "etag": "1daebea8322c4b547df85661de9873f1-3",
+  "md5": "260e71ed58e18cf31030f8373509464b",
+  "md5_ok": null,
+  "sha256": "a6d7cbb867304b2ebddd020e70b17d3e9ae19212d3d6848989d7aeff6ed1bfba"
+ },
+ "processed/network-flows/Week4_Day03_06162021/net1012x_Flow_labeled.csv": {
+  "bytes": 15079479,
+  "etag": "a279fd84798abff0274fb5e853c110c9",
+  "md5": "a279fd84798abff0274fb5e853c110c9",
+  "md5_ok": true,
+  "sha256": "740e933b74d2e52b035dc0c9107c822440fda95bf64918674ca5c485ef4ea467"
+ },
+ "processed/network-flows/Week4_Day03_06162021/net1013x_Flow_labeled.csv": {
+  "bytes": 19961106,
+  "etag": "474ece81cc966a6cb6cbcbdf697cec13-2",
+  "md5": "ca8f46e4acd944df79df97a545d875b6",
+  "md5_ok": null,
+  "sha256": "71e1af9206a84492e9b8287bd2bd2100c74b867397d767d383788a61c86658ac"
+ },
+ "processed/network-flows/Week4_Day03_06162021/net1014x_Flow_labeled.csv": {
+  "bytes": 2165115,
+  "etag": "1ab236ac26d4ffd04722ffc19a3c1dac",
+  "md5": "1ab236ac26d4ffd04722ffc19a3c1dac",
+  "md5_ok": true,
+  "sha256": "9e6c7c233c763e49621d8dc0fa015b1fd6e9557df13eb8be9b6b90ae6ec15c94"
+ },
+ "processed/network-flows/Week4_Day03_06162021/net1015x_Flow_labeled.csv": {
+  "bytes": 2130084,
+  "etag": "74083c34ac3dabf811b884ddf5a07afd",
+  "md5": "74083c34ac3dabf811b884ddf5a07afd",
+  "md5_ok": true,
+  "sha256": "9ee388ae8c82845bccbd3b3e2152ae6c65f59cf149f91f7e236dc47eaf176c41"
+ },
+ "processed/network-flows/Week4_Day03_06162021/netgw_Flow_labeled.csv": {
+  "bytes": 73900547,
+  "etag": "cb0b3ee70bf1fef657eb937feee6c1f5-5",
+  "md5": "e85ab4af7cb2885fe9e98550582ec519",
+  "md5_ok": null,
+  "sha256": "69c0df7559f763f584765613dd0a2795290c408d4824cf66f5faa13ead210831"
+ },
+ "processed/network-flows/Week4_Day1_06152021/net1011x_Flow_labeled.csv": {
+  "bytes": 20556127,
+  "etag": "514d6e6c3965e1453343c65e76e0f567-2",
+  "md5": "085ac2752dca23a8842e39b055372ae6",
+  "md5_ok": null,
+  "sha256": "339665b78cb174754a46f6dd7ef81919809c57f2e0b5dd1c670b83a22c849c4c"
+ },
+ "processed/network-flows/Week4_Day1_06152021/net1012x_Flow_labeled.csv": {
+  "bytes": 12648027,
+  "etag": "d03342b0aacb4cc634ab969732462903",
+  "md5": "d03342b0aacb4cc634ab969732462903",
+  "md5_ok": true,
+  "sha256": "bb95de3a597bb82d697b392fa84b2c352ef86a2bcae370e6295e675d735589af"
+ },
+ "processed/network-flows/Week4_Day1_06152021/net1013x_Flow_labeled.csv": {
+  "bytes": 21016915,
+  "etag": "be61931512967208e4f7cf92ea16c5e3-2",
+  "md5": "cf43e7de580fccdb2e0d8dcd60697c13",
+  "md5_ok": null,
+  "sha256": "7c5dd80a2fd1374510639ac2370e489064ebd9d55b8af99507355978e0940214"
+ },
+ "processed/network-flows/Week4_Day1_06152021/net1014x_Flow_labeled.csv": {
+  "bytes": 2129412,
+  "etag": "c6e77c49ae64311faea76983ffd2fb9e",
+  "md5": "c6e77c49ae64311faea76983ffd2fb9e",
+  "md5_ok": true,
+  "sha256": "b89eb58da16c2833659b7ef080ba3933cde90a08854fd2160722660b0a677964"
+ },
+ "processed/network-flows/Week4_Day1_06152021/net1015x_Flow_labeled.csv": {
+  "bytes": 2088156,
+  "etag": "a79be3ebba72d80adf9a3fa52a3b6c61",
+  "md5": "a79be3ebba72d80adf9a3fa52a3b6c61",
+  "md5_ok": true,
+  "sha256": "9e7e6d6fbe148997e5bd9cfa351a735bb0e5b3f9147f88eda12d49f2481ddd96"
+ },
+ "processed/network-flows/Week4_Day1_06152021/netgw_Flow_labeled.csv": {
+  "bytes": 58806344,
+  "etag": "6c07a9d98511cd0f8aee37f0fea483f1-4",
+  "md5": "6209b69e9ef131101b3083f79f7df1b0",
+  "md5_ok": null,
+  "sha256": "97a91b86bad379571378b652b13fac7d050229da543f49b78e53be0e53126b2e"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1011x_Flow_labeled.csv": {
+  "bytes": 14979329,
+  "etag": "39dd50ccc0fb20c1eb96ee52b0edaa21",
+  "md5": "39dd50ccc0fb20c1eb96ee52b0edaa21",
+  "md5_ok": true,
+  "sha256": "f1984def44073cd321d5075f1ad1284cbc4be772fb16f69b3f0735441e9aa3a7"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1011x_Week4_Day2_06152021_part_Flow_labeled.csv": {
+  "bytes": 1099253,
+  "etag": "74bbed4596383e2d3798360fcdda3417",
+  "md5": "74bbed4596383e2d3798360fcdda3417",
+  "md5_ok": true,
+  "sha256": "375b76af0df055c92da89209d562d46a8e7fb59b87549d1324fd540b4f9f9486"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1012x_Flow_labeled.csv": {
+  "bytes": 12453874,
+  "etag": "f9f4ba4632f8d2275be5a0d5d2e03647",
+  "md5": "f9f4ba4632f8d2275be5a0d5d2e03647",
+  "md5_ok": true,
+  "sha256": "4ad2bb2fa2dd8debfde4bc24c54da5fe30880b8521ef5f368af4d4d87ea33e50"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1012x_Week4_Day2_06152021_part_Flow_labeled.csv": {
+  "bytes": 1282461,
+  "etag": "edbf8a0249d5732b7e3c3990016d1adf",
+  "md5": "edbf8a0249d5732b7e3c3990016d1adf",
+  "md5_ok": true,
+  "sha256": "e026647696662c13a78170babc0ab54b4d2778ab555a43a8d461c2d0188469b8"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1013x_Flow_labeled.csv": {
+  "bytes": 19397030,
+  "etag": "cc8064a6a156c88c4cf5135d776b7a17-2",
+  "md5": "e835f7609d4863a7871803e7fe0ef119",
+  "md5_ok": null,
+  "sha256": "01291f7916825af3da233779595693539db6f4f4c0c0a28e15f73887eaf7025a"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1013x_Week4_Day2_06152021_part_Flow_labeled.csv": {
+  "bytes": 1167664,
+  "etag": "34dadaa1597164934c678813deea2741",
+  "md5": "34dadaa1597164934c678813deea2741",
+  "md5_ok": true,
+  "sha256": "b64b92a806740a329361e8a9a0321d8dfe50e6ee781ecd0c250d0e6f4cdb92a1"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1014x_Flow_labeled.csv": {
+  "bytes": 1196785,
+  "etag": "45106238cb9612993bd34878b147c884",
+  "md5": "45106238cb9612993bd34878b147c884",
+  "md5_ok": true,
+  "sha256": "1385a3eb85066381072e489685ae6735672684df6ee68223c6adee3ce9989c64"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1014x_Week4_Day2_06152021_part_Flow_labeled.csv": {
+  "bytes": 734960,
+  "etag": "2dcacc3c86b3e40ead8c3ddf8d02decf",
+  "md5": "2dcacc3c86b3e40ead8c3ddf8d02decf",
+  "md5_ok": true,
+  "sha256": "f8bc749248916df6b6724de7d46910f2a3a1d1c8f6b3a1a2ef84d1849e3acbb6"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1015x_Flow_labeled.csv": {
+  "bytes": 1246905,
+  "etag": "8282ed9ac7462d4eb2ae535eead06d1c",
+  "md5": "8282ed9ac7462d4eb2ae535eead06d1c",
+  "md5_ok": true,
+  "sha256": "9bca349897b7538d1fde84e4e1017edf97a49430f0db41f80c92094b38162d9b"
+ },
+ "processed/network-flows/Week4_Day2_06152021/net1015x_Week4_Day2_06152021_part_Flow_labeled.csv": {
+  "bytes": 672494,
+  "etag": "85f1eacdaa8e54153e8169f1283ace8e",
+  "md5": "85f1eacdaa8e54153e8169f1283ace8e",
+  "md5_ok": true,
+  "sha256": "2a8f5af65bc268e2db53b14b3c49152d125ad7d255a4e26ed2ace3ef9e0bb60f"
+ },
+ "processed/network-flows/Week4_Day2_06152021/netgw_Flow_labeled.csv": {
+  "bytes": 49205433,
+  "etag": "b0ca46d04a4089c41587a892fccf952b-3",
+  "md5": "e83de49e12263cd854f4f3ec388dd117",
+  "md5_ok": null,
+  "sha256": "59e61e6f3a7da0c3f4a00ec9d2f6a5dac971ca58b09751d82790064f083d22a8"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/net1011x_Flow_labeled.csv": {
+  "bytes": 48042162,
+  "etag": "03b94fb0478ba935f7076c6e6e06ecac-3",
+  "md5": "e4d73e20a2ac124585de1018e50cd679",
+  "md5_ok": null,
+  "sha256": "8ae203832bce3288998cb3fb40e6b01b76f587f84877f4f7376f1e71b85b4da9"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/net1012x_Flow_labeled.csv": {
+  "bytes": 21505275,
+  "etag": "5a1f142547480d4ac6cde67619bddc27-2",
+  "md5": "639f09bb4b9d548c1f94a15bccd2b011",
+  "md5_ok": null,
+  "sha256": "eafdbc60d582f7647e66a634731f33a6535760ddba4795327c105b64f786ed25"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/net1013x_Flow_labeled.csv": {
+  "bytes": 32421300,
+  "etag": "34973834e17519b3b4ca7bb7b3cf96fe-2",
+  "md5": "616c72c7c96ac10e5c67381b4afd9ba9",
+  "md5_ok": null,
+  "sha256": "96daf4f61e4a32f761f78740973a6e7db9a473ff6cc752498c984a2e30aea20f"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/net1014x_Flow_labeled.csv": {
+  "bytes": 5455146,
+  "etag": "5f3394fa662d56045ff44e10623fba3b",
+  "md5": "5f3394fa662d56045ff44e10623fba3b",
+  "md5_ok": true,
+  "sha256": "7c4db9e3159eef68c1f85a93f8c22bcd3ca91f2ff9d934387bb1ce2e17664d3f"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/net1015x_Flow_labeled.csv": {
+  "bytes": 4965338,
+  "etag": "ae70f4037b91fcb2b24c144293f8eb5f",
+  "md5": "ae70f4037b91fcb2b24c144293f8eb5f",
+  "md5_ok": true,
+  "sha256": "92267dc92d8a8b65986275f644127db6de5b0a88024cca86837a9698b5042f5d"
+ },
+ "processed/network-flows/Week4_Day3_7_06162021_06202021/netgw_Flow_labeled.csv": {
+  "bytes": 109703895,
+  "etag": "9f6e24d8c33cf41edb321396c3daef3b-7",
+  "md5": "fe107e8bf8ea9731b21691e7b5fb6bee",
+  "md5_ok": null,
+  "sha256": "5b8b503748daca6e204f5be46519bc6907a33c637adda704a81ba26a0e821d4b"
+ },
+ "processed/network-flows/Week4_Day4_06172021/net1011x_Flow_labeled.csv": {
+  "bytes": 45910567,
+  "etag": "1194571e0726ad097fb5b92ac29ba509-3",
+  "md5": "18df5e91882ac3854a399b7071cd6c20",
+  "md5_ok": null,
+  "sha256": "879d06d4540440ff45d443e2deaa2ec00ab386de4da9250f550ebf0e4f9dd13f"
+ },
+ "processed/network-flows/Week4_Day4_06172021/net1012x_Flow_labeled.csv": {
+  "bytes": 12503429,
+  "etag": "ffc6f706c3cb45c306e5fca958872c3e",
+  "md5": "ffc6f706c3cb45c306e5fca958872c3e",
+  "md5_ok": true,
+  "sha256": "c04ec3404bec047fdfe6a918b4251f2ce4ef18ee52f855cecd95375a0f01a101"
+ },
+ "processed/network-flows/Week4_Day4_06172021/net1013x_Flow_labeled.csv": {
+  "bytes": 18937514,
+  "etag": "2b41d7682d08f5ae3681d716209433a6-2",
+  "md5": "adfdfbffdca428e30602626063b617b9",
+  "md5_ok": null,
+  "sha256": "ab2a65933473be844b37abeccd45f061b54ae6fe94285faee69bf0316bd3ecea"
+ },
+ "processed/network-flows/Week4_Day4_06172021/net1014x_Flow_labeled.csv": {
+  "bytes": 2009603,
+  "etag": "393e720b6105cb3096384934ac73bcf3",
+  "md5": "393e720b6105cb3096384934ac73bcf3",
+  "md5_ok": true,
+  "sha256": "41c62ee705bd6bc6eb103c6654f6c4c2ae5330d0dbddfffc4fcf9822549fd9b4"
+ },
+ "processed/network-flows/Week4_Day4_06172021/net1015x_Flow_labeled.csv": {
+  "bytes": 1980843,
+  "etag": "5913a7eda04af4171721ae2ef8da26a9",
+  "md5": "5913a7eda04af4171721ae2ef8da26a9",
+  "md5_ok": true,
+  "sha256": "a33556a2bc57404b619bb0f39355e1875c5de991e4b320abd39a804b4075b3d9"
+ },
+ "processed/network-flows/Week4_Day4_06172021/netgw_Flow_labeled.csv": {
+  "bytes": 49446696,
+  "etag": "a3d8149a06635ac558bbc90110245399-3",
+  "md5": "52315864103db8d6527732e4c55d7f1f",
+  "md5_ok": null,
+  "sha256": "49a65883dc293c1663162108a36645e507ed1dbb0cb6e80f1753130e80081ece"
+ },
+ "processed/network-flows/Week5_Day1_06212021/net1011x_Flow_labeled.csv": {
+  "bytes": 44721203,
+  "etag": "1c85d52dbb1bd7111e70f70cc0be8fba-3",
+  "md5": "63b10132271230c3da51e7708b126669",
+  "md5_ok": null,
+  "sha256": "01dbcc8efd0f4eda3f40361a92cd9cf3d098908d6eae1edd15ce32e0b9659919"
+ },
+ "processed/network-flows/Week5_Day1_06212021/net1012x_Flow_labeled.csv": {
+  "bytes": 11535221,
+  "etag": "61c50f40ae5beee8a687d89c45b4d9db",
+  "md5": "61c50f40ae5beee8a687d89c45b4d9db",
+  "md5_ok": true,
+  "sha256": "f2bc710cf28effa088faf5c3e2ae1db08c3c26254f9c7bf481a209636e69a550"
+ },
+ "processed/network-flows/Week5_Day1_06212021/net1013x_Flow_labeled.csv": {
+  "bytes": 26038650,
+  "etag": "f0684f941c3a58fbebc4f7e09ea633aa-2",
+  "md5": "2dfe9f5293d384712931d36dae1e7dc5",
+  "md5_ok": null,
+  "sha256": "cbc00c3397d81972c321223e0318fd1b99f2c9d00143b98d1070359dbb56a272"
+ },
+ "processed/network-flows/Week5_Day1_06212021/net1014x_Flow_labeled.csv": {
+  "bytes": 1942207,
+  "etag": "3f8b5d3c95acbc7075460e6ae723df2a",
+  "md5": "3f8b5d3c95acbc7075460e6ae723df2a",
+  "md5_ok": true,
+  "sha256": "a65a67d3f1ea460a42be9aca8f3d412a01e0146b70889a86e5dabfea24b1ef2d"
+ },
+ "processed/network-flows/Week5_Day1_06212021/net1015x_Flow_labeled.csv": {
+  "bytes": 1857937,
+  "etag": "a23e36a2a94cf9ee008a7f53fc1e023c",
+  "md5": "a23e36a2a94cf9ee008a7f53fc1e023c",
+  "md5_ok": true,
+  "sha256": "0a4aa265e6d5e582019e1085db82ffe279024adb42341b1bb52d10f57ec42c4c"
+ },
+ "processed/network-flows/Week5_Day1_06212021/netgw_Flow_labeled.csv": {
+  "bytes": 77930760,
+  "etag": "9ceffec723511eda05f82a730353609d-5",
+  "md5": "a020d64041fe184d4f0e62f8dfca9444",
+  "md5_ok": null,
+  "sha256": "cef3eb40e6023364e226246a70c174881638bbf7fbbac5853127b1245072fa88"
+ },
+ "processed/network-flows/Week5_Day2_06222021/net1012x_Flow_labeled.csv": {
+  "bytes": 8715261,
+  "etag": "479051f7c97f3f340c2b1d100be64ef1",
+  "md5": "479051f7c97f3f340c2b1d100be64ef1",
+  "md5_ok": true,
+  "sha256": "ff828ad81e29d179a3ecfd9100991749882af8b0323ddeb4b0773f7d4653a480"
+ },
+ "processed/network-flows/Week5_Day2_06222021/net1013x_Flow_labeled.csv": {
+  "bytes": 21798174,
+  "etag": "9e78e1baa108241a6a6afa8bf9f292ea-2",
+  "md5": "734d8c8123642807b9e577499a802753",
+  "md5_ok": null,
+  "sha256": "aaf60e435aed2cd2fe873f1315a95907c4d19f7a92edb9f3c500342cc8f5d4e1"
+ },
+ "processed/network-flows/Week5_Day2_06222021/net1014x_Flow_labeled.csv": {
+  "bytes": 1892434,
+  "etag": "5b41d56f14ad0ef620de63bbac9a5efe",
+  "md5": "5b41d56f14ad0ef620de63bbac9a5efe",
+  "md5_ok": true,
+  "sha256": "1fa3049ac64d75caccde42ee8a553293acd7cccbbabf2bead1a89c0616639d3f"
+ },
+ "processed/network-flows/Week5_Day2_06222021/net1015x_Flow_labeled.csv": {
+  "bytes": 1853970,
+  "etag": "c66851203b1fb441340fada6fc4a770b",
+  "md5": "c66851203b1fb441340fada6fc4a770b",
+  "md5_ok": true,
+  "sha256": "59c2e829a922b610d71f58235a9656cf6bb0bf1c08245af6c8fc69563acd7fea"
+ },
+ "processed/network-flows/Week5_Day2_06222021/netgw_Flow_labeled.csv": {
+  "bytes": 60449630,
+  "etag": "99486bfd0f10966a344719c78ec49564-4",
+  "md5": "b8080a4668feb74a518c78b44c265399",
+  "md5_ok": null,
+  "sha256": "451576070262ca3a832ebf881b0d856cdef011261a1a52572557217f16e43c80"
+ },
+ "processed/network-flows/Week5_Day3_06232021/net1011x_Flow_labeled.csv": {
+  "bytes": 20078779,
+  "etag": "a830e6c4d0347f8ebecd858060439321-2",
+  "md5": "160aafe95fa7e0e7d68090ef73cce679",
+  "md5_ok": null,
+  "sha256": "f1a1a870ae22bb8b43575fcc9ddbc4452d69f78b3ff26ef8e80317d2e25fbe45"
+ },
+ "processed/network-flows/Week5_Day3_06232021/net1012x_Flow_labeled.csv": {
+  "bytes": 9520944,
+  "etag": "37dc4059e66c7eea8c6f5c8fed7b4439",
+  "md5": "37dc4059e66c7eea8c6f5c8fed7b4439",
+  "md5_ok": true,
+  "sha256": "39c76d5395b06328dd4eca6dc0bb564777fce5cfeb03b6fa2228af9057cf1ecd"
+ },
+ "processed/network-flows/Week5_Day3_06232021/net1013x_Flow_labeled.csv": {
+  "bytes": 11652222,
+  "etag": "471c9e7732514dad4b63800bb6ce4e7d",
+  "md5": "471c9e7732514dad4b63800bb6ce4e7d",
+  "md5_ok": true,
+  "sha256": "89377dd45992a258f93551c38da76a1aad0550a4f3dfa209a76b4f44811ae801"
+ },
+ "processed/network-flows/Week5_Day3_06232021/net1014x_Flow_labeled.csv": {
+  "bytes": 1743990,
+  "etag": "9e4d5386ed43899f182e7e74a429ffab",
+  "md5": "9e4d5386ed43899f182e7e74a429ffab",
+  "md5_ok": true,
+  "sha256": "3e71bf8293f6f297db0d1749f82be2a996bf26bc1d4e4c21133b684fd06ed59f"
+ },
+ "processed/network-flows/Week5_Day3_06232021/net1015x_Flow_labeled.csv": {
+  "bytes": 1662899,
+  "etag": "834a379a8057c890d49542985021e524",
+  "md5": "834a379a8057c890d49542985021e524",
+  "md5_ok": true,
+  "sha256": "9dc9a6e25e150aeae8c737a7a9080302e2d0ce821b48babbd2e723317753f75c"
+ },
+ "processed/network-flows/Week5_Day3_06232021/netgw_Flow_labeled.csv": {
+  "bytes": 42976363,
+  "etag": "d1ac26f01fa2a036d8ac3ade4e286200-3",
+  "md5": "e22ecdb5d6e004d0970e13fdb89de541",
+  "md5_ok": null,
+  "sha256": "4a7b6e3f77599121336c12c9e277a2ade86b3028d6d5ebf5b65e12cbec6e2795"
+ },
+ "processed/network-flows/Week5_Day4_06242021/net1013x_Flow_labeled.csv": {
+  "bytes": 5201572,
+  "etag": "df65b20616a0154c236a542922b47e3c",
+  "md5": "df65b20616a0154c236a542922b47e3c",
+  "md5_ok": true,
+  "sha256": "2ee5135dcdecf8811cc5ed2de56d9230629f613a1f00bf7dc0ea2ba48b767364"
+ },
+ "processed/network-flows/Week5_Day4_06242021/net1014x_Flow_labeled.csv": {
+  "bytes": 2115579,
+  "etag": "9abe04813a857a49733e27f343e90e62",
+  "md5": "9abe04813a857a49733e27f343e90e62",
+  "md5_ok": true,
+  "sha256": "1bab5942d8072b87234933366bedcba6db0fe118cc79207fd1e70f868365b828"
+ },
+ "processed/network-flows/Week5_Day4_06242021/net1015x_Flow_labeled.csv": {
+  "bytes": 1986795,
+  "etag": "880ed02d914af53b5ef3336d10de5ca5",
+  "md5": "880ed02d914af53b5ef3336d10de5ca5",
+  "md5_ok": true,
+  "sha256": "d30578bf42bf41bd539dd2f60ab79b4445215ad2ad3e272a6f442dcb958e11d6"
+ },
+ "processed/network-flows/Week5_Day4_06242021/netgw_Flow_labeled.csv": {
+  "bytes": 18448816,
+  "etag": "9b4d2cecea04c36ef2b3495a8152bb41-2",
+  "md5": "696c6d8cbbaec61503677a83c252b9bd",
+  "md5_ok": null,
+  "sha256": "3f847774f8cf31e41e1f3e8bc5d10f7383e301e8a4bb6c09613d18b4b89505e0"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/net1011x_Flow_labeled.csv": {
+  "bytes": 45920985,
+  "etag": "e1d976127667b8eb495a69313064f9b8-3",
+  "md5": "c34eed9620824715ed1ba2b2a3254bc5",
+  "md5_ok": null,
+  "sha256": "8a3e436144829644c3ce157aed8177617099bf6642a8e0ecbed7f054f2233ee3"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/net1012x_Flow_labeled.csv": {
+  "bytes": 15935496,
+  "etag": "07ed30cfdda79ca5882f68b54801aa4d",
+  "md5": "07ed30cfdda79ca5882f68b54801aa4d",
+  "md5_ok": true,
+  "sha256": "b4ceeff36944846184ea0c7bee91e6b7ce298ca5f13ebed4bbbebad7a3f0257c"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/net1013x_Flow_labeled.csv": {
+  "bytes": 25538732,
+  "etag": "e3091e27ce62f156ab42e84760136f27-2",
+  "md5": "e8c9fefb05dc1eb3bd2bc2a76a60990f",
+  "md5_ok": null,
+  "sha256": "8af3c70d4ce3f5e8418fe12047ec78c2667f2b851017c75184b4bca3006ef2f1"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/net1014x_Flow_labeled.csv": {
+  "bytes": 3377938,
+  "etag": "9ae52e2c52b06dc776f5ccf33c868581",
+  "md5": "9ae52e2c52b06dc776f5ccf33c868581",
+  "md5_ok": true,
+  "sha256": "7ba4ad3e6610ea5187ae7590e8964df768933bd8462bfce945d67bb781603beb"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/net1015x_Flow_labeled.csv": {
+  "bytes": 3200616,
+  "etag": "8c74d14ce2f1e3ab592f0c6b1d4e7902",
+  "md5": "8c74d14ce2f1e3ab592f0c6b1d4e7902",
+  "md5_ok": true,
+  "sha256": "ce7734fed50f99254b3baf05d87b3c4c58219530e954e772f8b829ad0a3e0345"
+ },
+ "processed/network-flows/Week5_Day5-6_06252021-06262021/netgw_Flow_labeled.csv": {
+  "bytes": 91958105,
+  "etag": "4445724987e214650625f14e933c2c8b-6",
+  "md5": "55b578b8352644a58bd49b1c13040072",
+  "md5_ok": null,
+  "sha256": "f26343abf72df140a9d9c96c46a5d6d1be8b694943eef7016cf45ffca4054557"
+ },
+ "processed/network-flows/Week5_Day6_06272021/net1011x_Flow_labeled.csv": {
+  "bytes": 3875472,
+  "etag": "74066fb856a00252427902f4eb24f6e9",
+  "md5": "74066fb856a00252427902f4eb24f6e9",
+  "md5_ok": true,
+  "sha256": "dcb97c440c2620a5bbaee34482a7e149186609c07f1d7e566e0ac11588951f37"
+ },
+ "processed/network-flows/Week5_Day6_06272021/net1012x_Flow_labeled.csv": {
+  "bytes": 4410588,
+  "etag": "7d65178c13da8a73d3d5b4575456a0ae",
+  "md5": "7d65178c13da8a73d3d5b4575456a0ae",
+  "md5_ok": true,
+  "sha256": "cdffad7d475c019a687b5679fe36433e6750bcf02aa5af638758ae21ab643687"
+ },
+ "processed/network-flows/Week5_Day6_06272021/net1013x_Flow_labeled.csv": {
+  "bytes": 7008490,
+  "etag": "2c6135f955af1d9414c6433fe1dfe773",
+  "md5": "2c6135f955af1d9414c6433fe1dfe773",
+  "md5_ok": true,
+  "sha256": "1a98b0eb6c5929a5dac599e4352f28656ecf968d353113c16676fefd26db1a70"
+ },
+ "processed/network-flows/Week5_Day6_06272021/net1014x_Flow_labeled.csv": {
+  "bytes": 1961761,
+  "etag": "f6a4e4ee506414d5b82996ced3a332bd",
+  "md5": "f6a4e4ee506414d5b82996ced3a332bd",
+  "md5_ok": true,
+  "sha256": "7272255b12cfdd0d1d3957f0fafa1e57db57ef66b849a64821a45f5f2e414d95"
+ },
+ "processed/network-flows/Week5_Day6_06272021/net1015x_Flow_labeled.csv": {
+  "bytes": 1806239,
+  "etag": "e5ab1c538f74936d63abdcea664b650f",
+  "md5": "e5ab1c538f74936d63abdcea664b650f",
+  "md5_ok": true,
+  "sha256": "5271a58c11795648094c9f0467f1b649b8ccb01240e2dc858ddad1f3f9193e87"
+ },
+ "processed/network-flows/Week5_Day6_06272021/netgw_Flow_labeled.csv": {
+  "bytes": 12672633,
+  "etag": "8fd7abe0694366479711346fc0a69579",
+  "md5": "8fd7abe0694366479711346fc0a69579",
+  "md5_ok": true,
+  "sha256": "2fee24fb52574e19933ec24b4414e1766dad30d9ca1bf9e26483402e94b8b1d4"
+ },
+ "processed/network-flows/Week6_Day2_06292021/net1011x_Flow_labeled.csv": {
+  "bytes": 55319975,
+  "etag": "dd8e7247f704eefc11df459c44e0b3a6-4",
+  "md5": "676a30f8748e2d57dce7534677e23f30",
+  "md5_ok": null,
+  "sha256": "165181e160453730d90ca1d4d3e4beb5f9f2ddbff6b60086a6bb6f80ab9f660a"
+ },
+ "processed/network-flows/Week6_Day2_06292021/net1012x_Flow_labeled.csv": {
+  "bytes": 20539793,
+  "etag": "f7cc87c03ebe1432ce9a061c83380b4e-2",
+  "md5": "1808efb2e77dbe1590ee1301ff3cdd86",
+  "md5_ok": null,
+  "sha256": "354d7f53e7704edfcabec5646a0043c69483c7f9582f37535c3ff0c64d17b75a"
+ },
+ "processed/network-flows/Week6_Day2_06292021/net1013x_Flow_labeled.csv": {
+  "bytes": 39979283,
+  "etag": "e3aa163d3eded419358bdc8369b9ac3c-3",
+  "md5": "2520a5f4ec34666180546b824574c4be",
+  "md5_ok": null,
+  "sha256": "bd15add5e58db8ae80954e40572abc19101e41a7286780c3e147c4c68f420187"
+ },
+ "processed/network-flows/Week6_Day2_06292021/net1014x_Flow_labeled.csv": {
+  "bytes": 7513374,
+  "etag": "aaf70e9d0c07ec03352ab988a19b6200",
+  "md5": "aaf70e9d0c07ec03352ab988a19b6200",
+  "md5_ok": true,
+  "sha256": "8d71fb798611b74f23a4acd4c79bc073de8ecacbd9a7f48be8ed63ef762f7dbd"
+ },
+ "processed/network-flows/Week6_Day2_06292021/net1015x_Flow_labeled.csv": {
+  "bytes": 3359614,
+  "etag": "196b1c3c07275c1ce64d13bb883092e1",
+  "md5": "196b1c3c07275c1ce64d13bb883092e1",
+  "md5_ok": true,
+  "sha256": "5fce5c0bc954152cb9f10eaac6f83ee360d067d6a032f507cceefed8f8902570"
+ },
+ "processed/network-flows/Week6_Day2_06292021/netgw_Flow_labeled.csv": {
+  "bytes": 141432814,
+  "etag": "d188ef3000bd84fc33651dac83081945-9",
+  "md5": "38937042761cafd3c6ea9e333a13611a",
+  "md5_ok": null,
+  "sha256": "bc6d49fa5a0a1004ef97f108375473e36ee84dda378beffd3e2f0386e49b5841"
+ },
+ "processed/network-flows/Week6_Day3_06302021/net1011x_Flow_labeled.csv": {
+  "bytes": 50666936,
+  "etag": "05ee57a96512a7c3a0d2e67a7478e845-4",
+  "md5": "fdbeafc907d23b4955e4584494e1b9da",
+  "md5_ok": null,
+  "sha256": "83ae509a1953221037715eb4a6ead7e86d454dd8c3a9050ca5d98b0d0c2a1603"
+ },
+ "processed/network-flows/Week6_Day3_06302021/net1012x_Flow_labeled.csv": {
+  "bytes": 19330746,
+  "etag": "7df49f44dd15df9c02be095eef4de020-2",
+  "md5": "6fdbf595e52aa108fd0e1e9c3d139cd7",
+  "md5_ok": null,
+  "sha256": "16725559b92f9e3d73adb3bf470c99e6ee924f685ca62ca312d2be9efbe8d7b2"
+ },
+ "processed/network-flows/Week6_Day3_06302021/net1013x_Flow_labeled.csv": {
+  "bytes": 30027494,
+  "etag": "3ef8950be1325427556e6884bb9a29da-2",
+  "md5": "50350dd3dcbf0d989ce090afa50005a6",
+  "md5_ok": null,
+  "sha256": "e5be0be272bd199d3cde91a364c1af10c53906d9635c61c73671a9b717d4eb2b"
+ },
+ "processed/network-flows/Week6_Day3_06302021/net1014x_Flow_labeled.csv": {
+  "bytes": 5054137,
+  "etag": "fb1bb41e5696b0342f8394e492d4f312",
+  "md5": "fb1bb41e5696b0342f8394e492d4f312",
+  "md5_ok": true,
+  "sha256": "3255c5099faa297b8fe7ddfbb0189fd20fb43ee4ffc81d71d9ab0fda003f9424"
+ },
+ "processed/network-flows/Week6_Day3_06302021/net1015x_Flow_labeled.csv": {
+  "bytes": 2244027,
+  "etag": "cb742503a9d55fb085cbbc439b3f469b",
+  "md5": "cb742503a9d55fb085cbbc439b3f469b",
+  "md5_ok": true,
+  "sha256": "035c24aacf7d0488a9b1acba659f853cc930c6fe53c6ba8c0389564bc3a8e380"
+ },
+ "processed/network-flows/Week6_Day3_06302021/netgw_Flow_labeled.csv": {
+  "bytes": 100478482,
+  "etag": "ebc3765ffc2272bab2557e398cb0379a-6",
+  "md5": "3e7bb23b9e9035c0ab126714d6f67973",
+  "md5_ok": null,
+  "sha256": "1fee98e4cf352899af4186e58505c8323b3719bf7a8cf92dbdaeb523e5611261"
+ },
+ "processed/network-flows/Week6_Day4_07012021/net1011x_Flow_labeled.csv": {
+  "bytes": 35493999,
+  "etag": "6700df461397e863bf2a1f45e57eabef-3",
+  "md5": "b95c650746eabe40df5d73e1e355c0b3",
+  "md5_ok": null,
+  "sha256": "85ada021af77e152ff7cea79fc4b002250cb75f604944727481a3338d1dd0a3a"
+ },
+ "processed/network-flows/Week6_Day4_07012021/net1012x_Flow_labeled.csv": {
+  "bytes": 11845692,
+  "etag": "b89d7d1621c9e6930d7707facd030082",
+  "md5": "b89d7d1621c9e6930d7707facd030082",
+  "md5_ok": true,
+  "sha256": "f576cdc362ee4708bccaa1162f8954c84cd005e02b5c544e2ad87ff763f23eaa"
+ },
+ "processed/network-flows/Week6_Day4_07012021/net1013x_Flow_labeled.csv": {
+  "bytes": 21329415,
+  "etag": "bc8c779c6f0b7907dae420637c3c792c-2",
+  "md5": "f63e9b13422d3ff92016955b7d6a8162",
+  "md5_ok": null,
+  "sha256": "c077c628e5c89eb37957cf43c6dcfc20298165e610688a5b81d84e91eda1936e"
+ },
+ "processed/network-flows/Week6_Day4_07012021/net1014x_Flow_labeled.csv": {
+  "bytes": 1539292,
+  "etag": "7b715ff7cf34bda33f97c93e79d68ee6",
+  "md5": "7b715ff7cf34bda33f97c93e79d68ee6",
+  "md5_ok": true,
+  "sha256": "03745e6e8360efd7a95305e2eead865d69faa78c757c431b0ff6f0ea1bcfeee1"
+ },
+ "processed/network-flows/Week6_Day4_07012021/net1015x_Flow_labeled.csv": {
+  "bytes": 427443,
+  "etag": "82a017afbd2ee188ca5b165dd5782cd1",
+  "md5": "82a017afbd2ee188ca5b165dd5782cd1",
+  "md5_ok": true,
+  "sha256": "b3b1f3d8f00843ae6e6388126d31bb79494fa1f8bac3860a974d9073eb07f4ec"
+ },
+ "processed/network-flows/Week6_Day4_07012021/netgw_Flow_labeled.csv": {
+  "bytes": 16398358,
+  "etag": "0dcf5da73ec6409a80c37957b5a4c2fd",
+  "md5": "0dcf5da73ec6409a80c37957b5a4c2fd",
+  "md5_ok": true,
+  "sha256": "526d814dcd620708d29a50252c94691d32ee49c3c0bbff022b916e3ef03c6ed7"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part1/netgw_Flow_labeled.csv": {
+  "bytes": 57055004,
+  "etag": "1993a420456417743471c159ac970680-4",
+  "md5": "9edfa24839a10780192209639a631bdd",
+  "md5_ok": null,
+  "sha256": "4eb9e1bc17d7d7b868c8cb6f5c1801462c91d239f88a814043eae6be6003ed65"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/net1011x_Flow_labeled.csv": {
+  "bytes": 20270367,
+  "etag": "19d51b8fbb266f028f6bf9db5d922956-2",
+  "md5": "8b90bbbb85d363026dc07a3fd671c2d2",
+  "md5_ok": null,
+  "sha256": "7a44aeb3d79b08ab0e53cd3ac80ce2b2583f8c12846e1ee361f59b4110e7097b"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/net1012x_Flow_labeled.csv": {
+  "bytes": 9754952,
+  "etag": "44d17cc939505eeadc94d238c5e06688",
+  "md5": "44d17cc939505eeadc94d238c5e06688",
+  "md5_ok": true,
+  "sha256": "322a012c4331ca845fa7a645682ffb2249213a0b2c5ef4a826e1da2257876320"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/net1013x_Flow_labeled.csv": {
+  "bytes": 14664933,
+  "etag": "889d302508c5b8ec4c2935d6d2737a6f",
+  "md5": "889d302508c5b8ec4c2935d6d2737a6f",
+  "md5_ok": true,
+  "sha256": "b02b9a62269eed526fc31325be7c13c6493fa2f7f3f68a5ed515b4d52a770e56"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/net1014x_Flow_labeled.csv": {
+  "bytes": 1388222,
+  "etag": "fb6aaeff754c6487ca3accd0c7010471",
+  "md5": "fb6aaeff754c6487ca3accd0c7010471",
+  "md5_ok": true,
+  "sha256": "5389937e2feddd35acaa8004076b43ec7967a17939cf54c464883e3d2dc2c390"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/net1015x_Flow_labeled.csv": {
+  "bytes": 1245498,
+  "etag": "8de276d21d54bf853d6a5021d2b3fb5b",
+  "md5": "8de276d21d54bf853d6a5021d2b3fb5b",
+  "md5_ok": true,
+  "sha256": "0494945982bb0f47861c62d08bdd0e5ad41c189ad03f7a9b6c9eea56ea73541f"
+ },
+ "processed/network-flows/Week6_Day5_07022021_part2/netgw_Flow_labeled.csv": {
+  "bytes": 46867727,
+  "etag": "0724f5df30b6c1fb13ed41ca96f79e55-3",
+  "md5": "fb56405bacae745fafd937a36dbc79c5",
+  "md5_ok": null,
+  "sha256": "ba2bc69ab4f66db9a49edd1e415d986ec5fb6e6ccc0792b228715a260effcb3b"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/net1011x_Flow_labeled.csv": {
+  "bytes": 19082154,
+  "etag": "8c2a550b030e2fb4c9bfe42902ae79f4-2",
+  "md5": "8d3ef61d10b2f7cafda6cceecf975095",
+  "md5_ok": null,
+  "sha256": "314cb5d2edac28fdbfddc2654333066c29ae0446f7e1ea30f9cf636bc263c4fc"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/net1012x_Flow_labeled.csv": {
+  "bytes": 7579020,
+  "etag": "c193321e63884d5b9c1cbce37fdea0b8",
+  "md5": "c193321e63884d5b9c1cbce37fdea0b8",
+  "md5_ok": true,
+  "sha256": "5d325cd17a5218813bb23a8f5f5299a621e051a45d9931108a7ed331b0fb1401"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/net1013x_Flow_labeled.csv": {
+  "bytes": 9932794,
+  "etag": "7c55bfbf6b314d3299958d9ca4eff714",
+  "md5": "7c55bfbf6b314d3299958d9ca4eff714",
+  "md5_ok": true,
+  "sha256": "43952a5185cd7ed88f3ec8969100117f45e4ed3d631b781acfc75b1df3cce038"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/net1014x_Flow_labeled.csv": {
+  "bytes": 5579941,
+  "etag": "a85ad86909babbba560dfe7ac9f458fe",
+  "md5": "a85ad86909babbba560dfe7ac9f458fe",
+  "md5_ok": true,
+  "sha256": "a1a0be99b1c932fa6bd493d88216698f3a591a7893e1764ff9d6a53741fc17d5"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/net1015x_Flow_labeled.csv": {
+  "bytes": 4937036,
+  "etag": "1e9a5e6ed23f605002e4de4457aff288",
+  "md5": "1e9a5e6ed23f605002e4de4457aff288",
+  "md5_ok": true,
+  "sha256": "18b009562ecdcc06e66700fc782eb0f6e7e60a7239f726b2e37918468229de3f"
+ },
+ "processed/network-flows/Week6_Day6-7_07032021-07042021/netgw_Flow_labeled.csv": {
+  "bytes": 45165903,
+  "etag": "18e9fa6bbde51f742770f96ca694c21a-3",
+  "md5": "266b96569a5ad663c8fc8c77fe4b4378",
+  "md5_ok": null,
+  "sha256": "a68b65217c7d44b8b2eed003adb2879ca6d752a2bb47f1e0c204d139e3d4c36e"
+ }
+}

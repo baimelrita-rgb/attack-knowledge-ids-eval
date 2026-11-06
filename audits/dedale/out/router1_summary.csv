@@ -1,0 +1,4 @@
+capture,days,rows,attack_rows_label_ne_0,attack_days,benign_rows_on_attack_days,benign_src_ips,attack_hosts_src_or_dst
+router1_green,28,11398227,81,8,3336725,70,6
+router1_orange,28,836963,2,1,44993,76,3
+router1_red,28,11790693,1,1,573712,56,2

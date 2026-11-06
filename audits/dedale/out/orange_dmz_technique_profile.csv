@@ -1,0 +1,2 @@
+technique,capture,flows,days,hour_windows,src_ips,dst_ips,dst_ports,steps,modal_dst_port,modal_dst_port_flows,benign_flows_on_modal_port
+T1566,orange_dmz,2,1,1,2,1,2,2,25,1,54633

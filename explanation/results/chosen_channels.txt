@@ -1,0 +1,5 @@
+ours {'dedale': {'c2': 3, 'exfil': 2, 'lateral': 4, 'recon': 3}, 'optc': {'c2': 38, 'exfil': 36, 'lateral': 5, 'recon': 23}, 'unraveled': {'c2': 30, 'exfil': 248, 'lateral': 231, 'recon': 136}}
+ae_error {'dedale': {'c2': 6, 'exfil': 3, 'lateral': 2, 'recon': 1}, 'optc': {'c2': 29, 'exfil': 27, 'lateral': 0, 'recon': 46}, 'unraveled': {'c2': 207, 'exfil': 65, 'lateral': 254, 'recon': 119}}
+shap_ae {'dedale': {'c2': 8, 'exfil': 1, 'lateral': 3, 'recon': 0}, 'optc': {'c2': 4, 'exfil': 29, 'lateral': 0, 'recon': 69}, 'unraveled': {'c2': 261, 'exfil': 111, 'lateral': 166, 'recon': 107}}
+shap_if {'dedale': {'c2': 3, 'exfil': 1, 'lateral': 7, 'recon': 1}, 'optc': {'c2': 40, 'exfil': 28, 'lateral': 0, 'recon': 34}, 'unraveled': {'c2': 372, 'exfil': 100, 'lateral': 166, 'recon': 7}}
+occlusion_ae {'dedale': {'c2': 7, 'exfil': 1, 'lateral': 4, 'recon': 0}, 'optc': {'c2': 10, 'exfil': 7, 'lateral': 72, 'recon': 13}, 'unraveled': {'c2': 105, 'exfil': 16, 'lateral': 524, 'recon': 0}}

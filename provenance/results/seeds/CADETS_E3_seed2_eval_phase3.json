@@ -1,0 +1,67 @@
+{
+ "velox": {
+  "attacks@10": 0,
+  "gt@10": 0,
+  "attacks@25": 0,
+  "gt@25": 0,
+  "attacks@50": 3,
+  "gt@50": 15,
+  "attacks@100": 3,
+  "gt@100": 24,
+  "attacks@250": 3,
+  "gt@250": 25,
+  "attacks@500": 3,
+  "gt@500": 30
+ },
+ "knowledge": {
+  "attacks@10": 0,
+  "gt@10": 0,
+  "attacks@25": 0,
+  "gt@25": 0,
+  "attacks@50": 0,
+  "gt@50": 0,
+  "attacks@100": 0,
+  "gt@100": 0,
+  "attacks@250": 0,
+  "gt@250": 0,
+  "attacks@500": 3,
+  "gt@500": 25
+ },
+ "sum": {
+  "attacks@10": 0,
+  "gt@10": 0,
+  "attacks@25": 0,
+  "gt@25": 0,
+  "attacks@50": 0,
+  "gt@50": 0,
+  "attacks@100": 0,
+  "gt@100": 0,
+  "attacks@250": 0,
+  "gt@250": 0,
+  "attacks@500": 3,
+  "gt@500": 25
+ },
+ "interleave": {
+  "attacks@10": 0,
+  "gt@10": 0,
+  "attacks@25": 0,
+  "gt@25": 0,
+  "attacks@50": 0,
+  "gt@50": 0,
+  "attacks@100": 3,
+  "gt@100": 15,
+  "attacks@250": 3,
+  "gt@250": 24,
+  "attacks@500": 3,
+  "gt@500": 25
+ },
+ "_meta": {
+  "attacks": 3,
+  "gt": 72,
+  "gt_in_population": 72,
+  "population": 947966,
+  "velox_auc": 0.9749683391696634,
+  "velox_ap": 0.1046598057150279,
+  "processes_with_points": 240
+ }
+}

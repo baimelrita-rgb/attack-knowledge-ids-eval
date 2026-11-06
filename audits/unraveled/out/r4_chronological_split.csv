@@ -1,0 +1,33 @@
+capture,split,Activity,flows,hour_windows,meets_50_and_3h
+net1013x,train,Remote System Discovery,102,53,True
+net1013x,val,Data Transfer Size Limits,2206,39,True
+net1013x,val,Encrypted Channel: Symmetric Cryptography,14175,128,True
+net1013x,val,Exfiltration over C2 channel,441,8,True
+net1013x,val,Remote System Discovery,27,17,False
+net1013x,test,Data Transfer Size Limits,3778,131,True
+net1013x,test,Encrypted Channel: Symmetric Cryptography,12912,110,True
+net1013x,test,Remote System Discovery,35,17,False
+net1013x,test,Remove Traces,358,3,True
+net1013x,test,Unsecured Credentials,88,14,True
+net1014x,val,Active Scanning: Scanning IP Blocks,6,1,False
+net1014x,test,Active Scanning: Scanning IP Blocks,2938,13,True
+net1014x,test,Bruteforce: Password Guessing,4,2,False
+net1015x,train,Remote System Discovery,102,53,True
+net1015x,val,Remote System Discovery,27,17,False
+net1015x,test,Data Transfer Size Limits,1003,81,True
+net1015x,test,Remote System Discovery,24,11,False
+netgw,train,Remote System Discovery,685,102,True
+netgw,val,Active Scanning: Scanning IP Blocks,4456,2,False
+netgw,val,Active Scanning: Vulnerability Scanning,4,1,False
+netgw,val,Data Transfer Size Limits,1,1,False
+netgw,val,Encrypted Channel: Symmetric Cryptography,20,15,False
+netgw,val,Exfiltration over C2 channel,5,5,False
+netgw,val,Hijack Execution Flow: Path Interception by PATH Environment Variable,6,3,False
+netgw,val,Maintain Access,14222,116,True
+netgw,test,Active Scanning: Scanning IP Blocks,4050,14,True
+netgw,test,Active Scanning: Vulnerability Scanning,1,1,False
+netgw,test,Bruteforce: Password Guessing,22652,2,False
+netgw,test,Encrypted Channel: Symmetric Cryptography,4,4,False
+netgw,test,Hijack Execution Flow: Path Interception by PATH Environment Variable,1,1,False
+netgw,test,Maintain Access,12906,89,True
+netgw,test,Remove Traces,4,1,False
