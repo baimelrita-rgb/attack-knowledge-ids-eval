@@ -47,18 +47,15 @@ Detectors? A Pre-registered Evaluation of Detection, Explanation and Blast-Radiu
 Security operations combine learned detectors with explicit attack knowledge such as MITRE ATT\&CK. We ask when this
 knowledge improves a learned detector, whether alerts can be explained in ATT\&CK terms, and whether the next
 compromised host can be predicted. All methods, splits, metrics and pass/fail gates were pre-registered before the
-test data were opened. We use nine public datasets of emulated or red-team attacks. On network flows, a pooled
-autoencoder set a strong baseline (host-day AUC 0.960 vs.\ 0.673 for structured per-host detectors on OpTC,
-consistent over six seeds). On host provenance, an ATT\&CK rule prior fused with a learned detector found 7 of 10
-process-centric Windows attacks within ten alerts, where the learned detector alone found none, and on CARBANAKv2,
-whose ground truth was opened only after the rules were fixed, it reached the attack within three alerts in every
-seed (learned detector: 321 or more); on Linux, FreeBSD and
-Android the learned detector led (4 of 6 attacks within 50 alerts). A negative control shows that the gains come
-from the rules marking the attack's processes, a measurable criterion for when to fuse.
-Grouping an autoencoder's reconstruction error by ATT\&CK channel identified the attack stage well above chance on
-Unraveled in every seed, and held-out results show which explainers need validation. On LANL, host
-popularity proved a strong predictor of the next compromised host. The value of attack knowledge depends on
-telemetry, attack representation and task. Code, plans and results are released as research infrastructure.
+test data were opened, across nine public datasets of emulated or red-team attacks. On network flows, a pooled
+autoencoder set a strong baseline (host-day AUC 0.960 vs.\ 0.673 for per-host detectors on OpTC). On host provenance,
+fusing an ATT\&CK rule prior with a learned detector reached 7 of 10 process-centric Windows attacks within ten
+alerts, where the learned detector alone found none; a confirmatory check on CARBANAKv2 reached the attack within
+three alerts in every seed. On Linux, FreeBSD and Android the learned detector led. A negative control shows that the
+gains come from rules marking the attack's processes, a measurable criterion for when to fuse. Grouping
+reconstruction error by ATT\&CK channel identified the attack stage well above chance on Unraveled. On LANL, host
+popularity proved a strong predictor of the next compromised host. Code, plans and results are released as research
+infrastructure.
 \end{abstract}
 
 \begin{CCSXML}
