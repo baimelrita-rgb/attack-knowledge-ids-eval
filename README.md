@@ -23,6 +23,7 @@ baselines, gates and controls can be applied to new detectors, knowledge sources
 | RQ3, Table "attribution accuracy" | `explanation/explain_e1.py` | `explanation/results/RESULTS_E1.md`, `results.json` | `preregistrations/PLAN_E1.md` |
 | RQ4, Table "LANL" | `blast_radius/` (`aggregate_auth.py`, `aggregate_auth_users.py`, `blast_radius.py`) | `blast_radius/RESULTS_L3_LANL.md`, `l3_*.json` | `preregistrations/PREREG_PHASE2.md` (L3 section) |
 | RQ2 mechanism analysis, Table "mechanism" | `mechanism/mechanism.py` | `mechanism/RESULTS_MECHANISM.md`, `results_mechanism.json` | `preregistrations/PLAN_MECHANISM.md` |
+| RQ2 confirmatory check on CARBANAKv2 and rule ablation | `round4/run_carbanak.sh`, `round4/carbanak_eval.py`, `round4/rule_ablation.py` | `round4/RESULTS_CARBANAK.md`, `RESULTS_RULE_ABLATION.md` | `preregistrations/PLAN_ROUND4.md` |
 | RQ2 negative control and Holm correction | `round4/negative_control.py`, `round4/holm.py` | `round4/RESULTS_NEGATIVE_CONTROL.md`, `results_holm.json` | `preregistrations/PLAN_ROUND4.md` |
 | RQ4 bootstrap intervals | `stats/rq4_bootstrap.py` | `stats/rq4_bootstrap.json` | — |
 | Dataset audits (Appendix) | `audits/` | `audits/*/RECON.md`, `audits/CHOICE.md` | — |

@@ -1,0 +1,130 @@
+{
+ "learned only": {
+  "gt@50": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "first_rank": [
+   3035,
+   3656,
+   6387,
+   1985,
+   321
+  ]
+ },
+ "all rules": {
+  "gt@50": [
+   12,
+   5,
+   11,
+   2,
+   2
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ]
+ },
+ "without execution": {
+  "gt@50": [
+   4,
+   3,
+   5,
+   4,
+   1
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   6,
+   2
+  ]
+ },
+ "without proxy_lolbin": {
+  "gt@50": [
+   12,
+   5,
+   11,
+   2,
+   6
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ]
+ },
+ "without discovery": {
+  "gt@50": [
+   12,
+   5,
+   11,
+   2,
+   2
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ]
+ },
+ "without other_node": {
+  "gt@50": [
+   9,
+   8,
+   9,
+   7,
+   2
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ]
+ },
+ "without doc_parent_edge": {
+  "gt@50": [
+   12,
+   5,
+   11,
+   2,
+   2
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ]
+ },
+ "without interp_lolbin_edge": {
+  "gt@50": [
+   12,
+   9,
+   11,
+   2,
+   2
+  ],
+  "first_rank": [
+   1,
+   2,
+   2,
+   36,
+   2
+  ]
+ }
+}

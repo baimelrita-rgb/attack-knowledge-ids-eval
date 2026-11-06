@@ -1,7 +1,7 @@
 #!/bin/bash
 # A1 (PLAN_ROUND4.md): Velox-lite seeds 0-4 on CARBANAKv2 + Phase-2 fusion evaluation. Keeps the database for A3.
 PGB=/home/user/ext/pg17/postgresql-17.11.0-x86_64-unknown-linux-gnu/bin
-DB=carbanakv2_edr; KEY=CARBANAKV2_EDR; ID=1rJN9F8JkmqMAV9zUjralcFB5wykAgLnd
+DB=carbanakv2_edr; KEY=CARBANAKV2_EDR; ID=1cTCxLqL4DS1eSLHP59ipxwIVPceGkVdG  # corresponding author's copy of the PIDSMaker dump
 R=/home/user/stt-gnn-/dep/data_raw/reach_runs/velox_lite/$KEY; G=/home/user/stt-gnn-/dep/data_raw/reach_gt/$KEY
 export NLTK_ALLOW_PROXIED_URLOPEN=1; mkdir -p $R
 cd /home/user/stt-gnn-/dep/reach
